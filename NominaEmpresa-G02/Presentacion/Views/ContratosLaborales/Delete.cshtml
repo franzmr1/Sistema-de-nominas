@@ -1,0 +1,54 @@
+﻿@model NominaEmpresa.Dominio.ContratoLaborales
+@{
+    ViewBag.Title = "Eliminar Contrato";
+}
+<div class="container-fluid">
+    <div class="card shadow-sm border-0 mb-4">
+        <div class="card-header py-3 bg-danger">
+            <h6 class="m-0 font-weight-bold text-white">Eliminar Contrato</h6>
+        </div>
+        <div class="card-body">
+            <h5 class="text-center">¿Está seguro que desea eliminar este contrato?</h5>
+            <p class="text-center text-danger font-weight-bold">Esta acción no se puede deshacer.</p>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <table class="table table-sm table-bordered">
+                        <thead class="thead-light">
+                            <tr>
+                                <th colspan="2" class="text-center">Información del Contrato</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th class="font-weight-bold">Código de Contrato</th>
+                                <td>@Model.ContratoCodigo</td>
+                            </tr>
+                            <tr>
+                                <th class="font-weight-bold">Código de Trabajador</th>
+                                <td>@Model.Trabajador.TrabajadoresNombreCompleto</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer text-center">
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+                <button type="submit" class="btn btn-danger btn-icon-split shadow-sm">
+                    <span class="icon text-white-50">
+                        <i class="fas fa-trash-alt"></i>
+                    </span>
+                    <span class="text">Eliminar</span>
+                </button>
+                <a href="@Url.Action("Index")" class="btn btn-secondary btn-icon-split shadow-sm">
+                    <span class="icon text-white-50">
+                        <i class="fas fa-arrow-left"></i>
+                    </span>
+                    <span class="text">Cancelar</span>
+                </a>
+            }
+        </div>
+    </div>
+</div>

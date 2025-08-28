@@ -1,0 +1,780 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9BF5BB-5961-4167-8032-62F081C98B5E}|NominaEmpresa.Persistencia\\NominaEmpresa.Persistencia.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\nominaempresa.persistencia\\pagosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9BF5BB-5961-4167-8032-62F081C98B5E}|NominaEmpresa.Persistencia\\NominaEmpresa.Persistencia.csproj|solutionrelative:nominaempresa.persistencia\\pagosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9BF5BB-5961-4167-8032-62F081C98B5E}|NominaEmpresa.Persistencia\\NominaEmpresa.Persistencia.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\nominaempresa.persistencia\\contratoslaboralesdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9BF5BB-5961-4167-8032-62F081C98B5E}|NominaEmpresa.Persistencia\\NominaEmpresa.Persistencia.csproj|solutionrelative:nominaempresa.persistencia\\contratoslaboralesdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9BF5BB-5961-4167-8032-62F081C98B5E}|NominaEmpresa.Persistencia\\NominaEmpresa.Persistencia.csproj|c:\\calidad6.0\\proyecto calidad v2\\proyecto calidad\\nominaempresa-g02\\nominaempresa-g02\\nominaempresa.persistencia\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9BF5BB-5961-4167-8032-62F081C98B5E}|NominaEmpresa.Persistencia\\NominaEmpresa.Persistencia.csproj|solutionrelative:nominaempresa.persistencia\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FAF6657-5EEE-4D3F-89B3-2B4BE0B2D8C4}|NominaEmpresa.Dominio\\NominaEmpresa.Dominio.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\nominaempresa.dominio\\trabajadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FAF6657-5EEE-4D3F-89B3-2B4BE0B2D8C4}|NominaEmpresa.Dominio\\NominaEmpresa.Dominio.csproj|solutionrelative:nominaempresa.dominio\\trabajadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F05C4885-3A1B-4CBA-841E-B8B37018328E}|NominaEmpresa.Aplicacion\\NominaEmpresa.Aplicacion.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\nominaempresa.aplicacion\\trabajadoresaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F05C4885-3A1B-4CBA-841E-B8B37018328E}|NominaEmpresa.Aplicacion\\NominaEmpresa.Aplicacion.csproj|solutionrelative:nominaempresa.aplicacion\\trabajadoresaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F05C4885-3A1B-4CBA-841E-B8B37018328E}|NominaEmpresa.Aplicacion\\NominaEmpresa.Aplicacion.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\nominaempresa.aplicacion\\periodosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F05C4885-3A1B-4CBA-841E-B8B37018328E}|NominaEmpresa.Aplicacion\\NominaEmpresa.Aplicacion.csproj|solutionrelative:nominaempresa.aplicacion\\periodosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F05C4885-3A1B-4CBA-841E-B8B37018328E}|NominaEmpresa.Aplicacion\\NominaEmpresa.Aplicacion.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\nominaempresa.aplicacion\\pagosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F05C4885-3A1B-4CBA-841E-B8B37018328E}|NominaEmpresa.Aplicacion\\NominaEmpresa.Aplicacion.csproj|solutionrelative:nominaempresa.aplicacion\\pagosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F05C4885-3A1B-4CBA-841E-B8B37018328E}|NominaEmpresa.Aplicacion\\NominaEmpresa.Aplicacion.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\nominaempresa.aplicacion\\contratoslaboralesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F05C4885-3A1B-4CBA-841E-B8B37018328E}|NominaEmpresa.Aplicacion\\NominaEmpresa.Aplicacion.csproj|solutionrelative:nominaempresa.aplicacion\\contratoslaboralesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\presentacion\\views\\pagos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|solutionrelative:presentacion\\views\\pagos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C4D8CAB-EB42-4499-82A1-98E34662DFDD}|TEST\\TEST.csproj|c:\\calidad6.0\\proyecto calidad v2\\proyecto calidad\\nominaempresa-g02\\nominaempresa-g02\\test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C4D8CAB-EB42-4499-82A1-98E34662DFDD}|TEST\\TEST.csproj|solutionrelative:test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C4D8CAB-EB42-4499-82A1-98E34662DFDD}|TEST\\TEST.csproj|c:\\calidad6.0\\proyecto calidad v2\\proyecto calidad\\nominaempresa-g02\\nominaempresa-g02\\test\\periodostests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C4D8CAB-EB42-4499-82A1-98E34662DFDD}|TEST\\TEST.csproj|solutionrelative:test\\periodostests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C4D8CAB-EB42-4499-82A1-98E34662DFDD}|TEST\\TEST.csproj|c:\\calidad6.0\\proyecto calidad v2\\proyecto calidad\\nominaempresa-g02\\nominaempresa-g02\\test\\pagostests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C4D8CAB-EB42-4499-82A1-98E34662DFDD}|TEST\\TEST.csproj|solutionrelative:test\\pagostests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C4D8CAB-EB42-4499-82A1-98E34662DFDD}|TEST\\TEST.csproj|c:\\calidad6.0\\proyecto calidad v2\\proyecto calidad\\nominaempresa-g02\\nominaempresa-g02\\test\\contratolaboralestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C4D8CAB-EB42-4499-82A1-98E34662DFDD}|TEST\\TEST.csproj|solutionrelative:test\\contratolaboralestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\presentacion\\controllers\\periodoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|solutionrelative:presentacion\\controllers\\periodoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD9FCF0-966D-4079-B8B4-D3FA01B38D49}|NominaEmpresa.Servicios\\NominaEmpresa.Servicios.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\nominaempresa.servicios\\periodosservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DD9FCF0-966D-4079-B8B4-D3FA01B38D49}|NominaEmpresa.Servicios\\NominaEmpresa.Servicios.csproj|solutionrelative:nominaempresa.servicios\\periodosservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9BF5BB-5961-4167-8032-62F081C98B5E}|NominaEmpresa.Persistencia\\NominaEmpresa.Persistencia.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\nominaempresa.persistencia\\periodosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9BF5BB-5961-4167-8032-62F081C98B5E}|NominaEmpresa.Persistencia\\NominaEmpresa.Persistencia.csproj|solutionrelative:nominaempresa.persistencia\\periodosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\presentacion\\views\\periodos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|solutionrelative:presentacion\\views\\periodos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\presentacion\\controllers\\pagoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|solutionrelative:presentacion\\controllers\\pagoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FAF6657-5EEE-4D3F-89B3-2B4BE0B2D8C4}|NominaEmpresa.Dominio\\NominaEmpresa.Dominio.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\nominaempresa.dominio\\periodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FAF6657-5EEE-4D3F-89B3-2B4BE0B2D8C4}|NominaEmpresa.Dominio\\NominaEmpresa.Dominio.csproj|solutionrelative:nominaempresa.dominio\\periodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD9FCF0-966D-4079-B8B4-D3FA01B38D49}|NominaEmpresa.Servicios\\NominaEmpresa.Servicios.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\nominaempresa.servicios\\pagosservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DD9FCF0-966D-4079-B8B4-D3FA01B38D49}|NominaEmpresa.Servicios\\NominaEmpresa.Servicios.csproj|solutionrelative:nominaempresa.servicios\\pagosservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\presentacion\\controllers\\trabajadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|solutionrelative:presentacion\\controllers\\trabajadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FAF6657-5EEE-4D3F-89B3-2B4BE0B2D8C4}|NominaEmpresa.Dominio\\NominaEmpresa.Dominio.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\nominaempresa.dominio\\pagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FAF6657-5EEE-4D3F-89B3-2B4BE0B2D8C4}|NominaEmpresa.Dominio\\NominaEmpresa.Dominio.csproj|solutionrelative:nominaempresa.dominio\\pagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\presentacion\\views\\contratoslaborales\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|solutionrelative:presentacion\\views\\contratoslaborales\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FAF6657-5EEE-4D3F-89B3-2B4BE0B2D8C4}|NominaEmpresa.Dominio\\NominaEmpresa.Dominio.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\nominaempresa.dominio\\contratoslaborales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FAF6657-5EEE-4D3F-89B3-2B4BE0B2D8C4}|NominaEmpresa.Dominio\\NominaEmpresa.Dominio.csproj|solutionrelative:nominaempresa.dominio\\contratoslaborales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\presentacion\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|solutionrelative:presentacion\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\presentacion\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|solutionrelative:presentacion\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\presentacion\\views\\contratoslaborales\\detailsinactivos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|solutionrelative:presentacion\\views\\contratoslaborales\\detailsinactivos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\presentacion\\views\\contratoslaborales\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|solutionrelative:presentacion\\views\\contratoslaborales\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\presentacion\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|solutionrelative:presentacion\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\presentacion\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|solutionrelative:presentacion\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\presentacion\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|solutionrelative:presentacion\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\presentacion\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|solutionrelative:presentacion\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\presentacion\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|solutionrelative:presentacion\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\presentacion\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|solutionrelative:presentacion\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\presentacion\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|solutionrelative:presentacion\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\presentacion\\views\\contratoslaborales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|solutionrelative:presentacion\\views\\contratoslaborales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\presentacion\\views\\contratoslaborales\\inactivos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|solutionrelative:presentacion\\views\\contratoslaborales\\inactivos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\presentacion\\views\\contratoslaborales\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|solutionrelative:presentacion\\views\\contratoslaborales\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\presentacion\\views\\contratoslaborales\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|solutionrelative:presentacion\\views\\contratoslaborales\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD9FCF0-966D-4079-B8B4-D3FA01B38D49}|NominaEmpresa.Servicios\\NominaEmpresa.Servicios.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\nominaempresa.servicios\\trabajadoresservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DD9FCF0-966D-4079-B8B4-D3FA01B38D49}|NominaEmpresa.Servicios\\NominaEmpresa.Servicios.csproj|solutionrelative:nominaempresa.servicios\\trabajadoresservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD9FCF0-966D-4079-B8B4-D3FA01B38D49}|NominaEmpresa.Servicios\\NominaEmpresa.Servicios.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\nominaempresa.servicios\\contratoslaboralesservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DD9FCF0-966D-4079-B8B4-D3FA01B38D49}|NominaEmpresa.Servicios\\NominaEmpresa.Servicios.csproj|solutionrelative:nominaempresa.servicios\\contratoslaboralesservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9BF5BB-5961-4167-8032-62F081C98B5E}|NominaEmpresa.Persistencia\\NominaEmpresa.Persistencia.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\nominaempresa.persistencia\\trabajadoresdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9BF5BB-5961-4167-8032-62F081C98B5E}|NominaEmpresa.Persistencia\\NominaEmpresa.Persistencia.csproj|solutionrelative:nominaempresa.persistencia\\trabajadoresdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FAF6657-5EEE-4D3F-89B3-2B4BE0B2D8C4}|NominaEmpresa.Dominio\\NominaEmpresa.Dominio.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\nominaempresa.dominio\\tipocontratos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FAF6657-5EEE-4D3F-89B3-2B4BE0B2D8C4}|NominaEmpresa.Dominio\\NominaEmpresa.Dominio.csproj|solutionrelative:nominaempresa.dominio\\tipocontratos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FAF6657-5EEE-4D3F-89B3-2B4BE0B2D8C4}|NominaEmpresa.Dominio\\NominaEmpresa.Dominio.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\nominaempresa.dominio\\modalidadtrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FAF6657-5EEE-4D3F-89B3-2B4BE0B2D8C4}|NominaEmpresa.Dominio\\NominaEmpresa.Dominio.csproj|solutionrelative:nominaempresa.dominio\\modalidadtrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FAF6657-5EEE-4D3F-89B3-2B4BE0B2D8C4}|NominaEmpresa.Dominio\\NominaEmpresa.Dominio.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\nominaempresa.dominio\\departamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FAF6657-5EEE-4D3F-89B3-2B4BE0B2D8C4}|NominaEmpresa.Dominio\\NominaEmpresa.Dominio.csproj|solutionrelative:nominaempresa.dominio\\departamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FAF6657-5EEE-4D3F-89B3-2B4BE0B2D8C4}|NominaEmpresa.Dominio\\NominaEmpresa.Dominio.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\nominaempresa.dominio\\cargos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FAF6657-5EEE-4D3F-89B3-2B4BE0B2D8C4}|NominaEmpresa.Dominio\\NominaEmpresa.Dominio.csproj|solutionrelative:nominaempresa.dominio\\cargos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\presentacion\\views\\trabajadores\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A75762A0-30B4-42D9-B807-52BA67B24D7C}|Presentacion\\NominaEmpresa.Presentacion.csproj|solutionrelative:presentacion\\views\\trabajadores\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Persistencia\\Conexion.cs",
+              "RelativeDocumentMoniker": "NominaEmpresa.Persistencia\\Conexion.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Persistencia\\Conexion.cs",
+              "RelativeToolTip": "NominaEmpresa.Persistencia\\Conexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T02:44:33.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PagosAplicacion.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Aplicacion\\PagosAplicacion.cs",
+              "RelativeDocumentMoniker": "NominaEmpresa.Aplicacion\\PagosAplicacion.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Aplicacion\\PagosAplicacion.cs",
+              "RelativeToolTip": "NominaEmpresa.Aplicacion\\PagosAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T02:43:22.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PeriodosAplicacion.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Aplicacion\\PeriodosAplicacion.cs",
+              "RelativeDocumentMoniker": "NominaEmpresa.Aplicacion\\PeriodosAplicacion.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Aplicacion\\PeriodosAplicacion.cs",
+              "RelativeToolTip": "NominaEmpresa.Aplicacion\\PeriodosAplicacion.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwMUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T02:43:27.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TrabajadoresAplicacion.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Aplicacion\\TrabajadoresAplicacion.cs",
+              "RelativeDocumentMoniker": "NominaEmpresa.Aplicacion\\TrabajadoresAplicacion.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Aplicacion\\TrabajadoresAplicacion.cs",
+              "RelativeToolTip": "NominaEmpresa.Aplicacion\\TrabajadoresAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T02:43:31.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Trabajadores.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Dominio\\Trabajadores.cs",
+              "RelativeDocumentMoniker": "NominaEmpresa.Dominio\\Trabajadores.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Dominio\\Trabajadores.cs",
+              "RelativeToolTip": "NominaEmpresa.Dominio\\Trabajadores.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAD4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T03:28:24.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContratosLaboralesDAO.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Persistencia\\ContratosLaboralesDAO.cs",
+              "RelativeDocumentMoniker": "NominaEmpresa.Persistencia\\ContratosLaboralesDAO.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Persistencia\\ContratosLaboralesDAO.cs",
+              "RelativeToolTip": "NominaEmpresa.Persistencia\\ContratosLaboralesDAO.cs",
+              "ViewState": "AgIAAM0BAAAAAAAAAAAYwOIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T03:27:41.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PagosDAO.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Persistencia\\PagosDAO.cs",
+              "RelativeDocumentMoniker": "NominaEmpresa.Persistencia\\PagosDAO.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Persistencia\\PagosDAO.cs",
+              "RelativeToolTip": "NominaEmpresa.Persistencia\\PagosDAO.cs",
+              "ViewState": "AgIAAOIBAAAAAAAAAAAAAHoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T02:44:43.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ContratosLaboralesAplicacion.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Aplicacion\\ContratosLaboralesAplicacion.cs",
+              "RelativeDocumentMoniker": "NominaEmpresa.Aplicacion\\ContratosLaboralesAplicacion.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Aplicacion\\ContratosLaboralesAplicacion.cs",
+              "RelativeToolTip": "NominaEmpresa.Aplicacion\\ContratosLaboralesAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T02:43:12.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PeriodosTests.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\TEST\\PeriodosTests.cs",
+              "RelativeDocumentMoniker": "TEST\\PeriodosTests.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\TEST\\PeriodosTests.cs",
+              "RelativeToolTip": "TEST\\PeriodosTests.cs",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAIwPcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T00:58:06.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PagosTests.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\TEST\\PagosTests.cs",
+              "RelativeDocumentMoniker": "TEST\\PagosTests.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\TEST\\PagosTests.cs",
+              "RelativeToolTip": "TEST\\PagosTests.cs",
+              "ViewState": "AgIAALsAAAAAAAAAAADwvzoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T00:57:54.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\Periodos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\Periodos\\Index.cshtml",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\Periodos\\Index.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\Periodos\\Index.cshtml",
+              "ViewState": "AgIAAAoBAAAAAAAAAAAAAKwBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T06:45:10.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\Pagos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\Pagos\\Index.cshtml",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\Pagos\\Index.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\Pagos\\Index.cshtml",
+              "ViewState": "AgIAAHsCAAAAAAAAAAAuwJcCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T23:10:18.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\TEST\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "TEST\\UnitTest1.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\TEST\\UnitTest1.cs",
+              "RelativeToolTip": "TEST\\UnitTest1.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwDUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T02:45:58.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PeriodosController.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Controllers\\PeriodosController.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Controllers\\PeriodosController.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Controllers\\PeriodosController.cs",
+              "RelativeToolTip": "Presentacion\\Controllers\\PeriodosController.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAIwKsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T23:52:27.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ContratoLaboralesTests.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\TEST\\ContratoLaboralesTests.cs",
+              "RelativeDocumentMoniker": "TEST\\ContratoLaboralesTests.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\TEST\\ContratoLaboralesTests.cs",
+              "RelativeToolTip": "TEST\\ContratoLaboralesTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T00:56:02.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PeriodosServicios.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Servicios\\PeriodosServicios.cs",
+              "RelativeDocumentMoniker": "NominaEmpresa.Servicios\\PeriodosServicios.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Servicios\\PeriodosServicios.cs",
+              "RelativeToolTip": "NominaEmpresa.Servicios\\PeriodosServicios.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAIwJ0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T02:45:18.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PagosController.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Controllers\\PagosController.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Controllers\\PagosController.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Controllers\\PagosController.cs",
+              "RelativeToolTip": "Presentacion\\Controllers\\PagosController.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAwwJ0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T06:47:21.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PeriodosDAO.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Persistencia\\PeriodosDAO.cs",
+              "RelativeDocumentMoniker": "NominaEmpresa.Persistencia\\PeriodosDAO.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Persistencia\\PeriodosDAO.cs",
+              "RelativeToolTip": "NominaEmpresa.Persistencia\\PeriodosDAO.cs",
+              "ViewState": "AgIAAPgAAAAAAAAAAAAkwAIBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T02:44:43.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Periodos.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Dominio\\Periodos.cs",
+              "RelativeDocumentMoniker": "NominaEmpresa.Dominio\\Periodos.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Dominio\\Periodos.cs",
+              "RelativeToolTip": "NominaEmpresa.Dominio\\Periodos.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA3wB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T02:44:21.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PagosServicio.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Servicios\\PagosServicio.cs",
+              "RelativeDocumentMoniker": "NominaEmpresa.Servicios\\PagosServicio.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Servicios\\PagosServicio.cs",
+              "RelativeToolTip": "NominaEmpresa.Servicios\\PagosServicio.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAIwHYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T02:45:14.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TrabajadoresController.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Controllers\\TrabajadoresController.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Controllers\\TrabajadoresController.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Controllers\\TrabajadoresController.cs",
+              "RelativeToolTip": "Presentacion\\Controllers\\TrabajadoresController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwBUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T03:22:38.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Pagos.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Dominio\\Pagos.cs",
+              "RelativeDocumentMoniker": "NominaEmpresa.Dominio\\Pagos.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Dominio\\Pagos.cs",
+              "RelativeToolTip": "NominaEmpresa.Dominio\\Pagos.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAqwHoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T03:28:18.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\ContratosLaborales\\Create.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\ContratosLaborales\\Create.cshtml",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\ContratosLaborales\\Create.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\ContratosLaborales\\Create.cshtml",
+              "ViewState": "AgIAALQBAAAAAAAAAAAUwM4BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T02:46:25.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ContratosLaborales.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Dominio\\ContratosLaborales.cs",
+              "RelativeDocumentMoniker": "NominaEmpresa.Dominio\\ContratosLaborales.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Dominio\\ContratosLaborales.cs",
+              "RelativeToolTip": "NominaEmpresa.Dominio\\ContratosLaborales.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAgwLQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T03:27:57.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAG8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T03:20:49.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T06:44:10.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DetailsInactivos.cshtml",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\ContratosLaborales\\DetailsInactivos.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\ContratosLaborales\\DetailsInactivos.cshtml",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\ContratosLaborales\\DetailsInactivos.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\ContratosLaborales\\DetailsInactivos.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T02:47:48.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\ContratosLaborales\\Details.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\ContratosLaborales\\Details.cshtml",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\ContratosLaborales\\Details.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\ContratosLaborales\\Details.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAIgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T02:47:24.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "Presentacion\\App_Start\\FilterConfig.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "Presentacion\\App_Start\\FilterConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T06:47:11.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "Presentacion\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "Presentacion\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T06:47:10.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "Presentacion\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "Presentacion\\App_Start\\BundleConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T06:47:07.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\Web.config",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\Web.config",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\Web.config",
+              "RelativeToolTip": "Presentacion\\Views\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-25T06:44:13.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T06:44:06.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T06:44:05.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T06:44:02.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\ContratosLaborales\\Index.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\ContratosLaborales\\Index.cshtml",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\ContratosLaborales\\Index.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\ContratosLaborales\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAMIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T02:48:34.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Inactivos.cshtml",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\ContratosLaborales\\Inactivos.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\ContratosLaborales\\Inactivos.cshtml",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\ContratosLaborales\\Inactivos.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\ContratosLaborales\\Inactivos.cshtml",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAAAL8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T02:48:05.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\ContratosLaborales\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\ContratosLaborales\\Edit.cshtml",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\ContratosLaborales\\Edit.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\ContratosLaborales\\Edit.cshtml",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAAAM0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T02:47:58.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\ContratosLaborales\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\ContratosLaborales\\Delete.cshtml",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\ContratosLaborales\\Delete.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\ContratosLaborales\\Delete.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T02:46:50.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "TrabajadoresServicio.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Servicios\\TrabajadoresServicio.cs",
+              "RelativeDocumentMoniker": "NominaEmpresa.Servicios\\TrabajadoresServicio.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Servicios\\TrabajadoresServicio.cs",
+              "RelativeToolTip": "NominaEmpresa.Servicios\\TrabajadoresServicio.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAcwL0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T02:45:26.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ContratosLaboralesServicio.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Servicios\\ContratosLaboralesServicio.cs",
+              "RelativeDocumentMoniker": "NominaEmpresa.Servicios\\ContratosLaboralesServicio.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Servicios\\ContratosLaboralesServicio.cs",
+              "RelativeToolTip": "NominaEmpresa.Servicios\\ContratosLaboralesServicio.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAuwI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T02:45:06.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "TipoContratos.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Dominio\\TipoContratos.cs",
+              "RelativeDocumentMoniker": "NominaEmpresa.Dominio\\TipoContratos.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Dominio\\TipoContratos.cs",
+              "RelativeToolTip": "NominaEmpresa.Dominio\\TipoContratos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T02:44:25.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ModalidadTrabajo.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Dominio\\ModalidadTrabajo.cs",
+              "RelativeDocumentMoniker": "NominaEmpresa.Dominio\\ModalidadTrabajo.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Dominio\\ModalidadTrabajo.cs",
+              "RelativeToolTip": "NominaEmpresa.Dominio\\ModalidadTrabajo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T02:43:57.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "TrabajadoresDAO.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Persistencia\\TrabajadoresDAO.cs",
+              "RelativeDocumentMoniker": "NominaEmpresa.Persistencia\\TrabajadoresDAO.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Persistencia\\TrabajadoresDAO.cs",
+              "RelativeToolTip": "NominaEmpresa.Persistencia\\TrabajadoresDAO.cs",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAiwNsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T03:27:01.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Departamentos.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Dominio\\Departamentos.cs",
+              "RelativeDocumentMoniker": "NominaEmpresa.Dominio\\Departamentos.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Dominio\\Departamentos.cs",
+              "RelativeToolTip": "NominaEmpresa.Dominio\\Departamentos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T02:43:53.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Cargos.cs",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Dominio\\Cargos.cs",
+              "RelativeDocumentMoniker": "NominaEmpresa.Dominio\\Cargos.cs",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Dominio\\Cargos.cs",
+              "RelativeToolTip": "NominaEmpresa.Dominio\\Cargos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T02:43:37.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\Trabajadores\\Details.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\Trabajadores\\Details.cshtml",
+              "ToolTip": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\Presentacion\\Views\\Trabajadores\\Details.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\Trabajadores\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T23:28:38.393Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\TEST\\TEST.csproj": {}
+  },
+  "projects": {
+    "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Dominio\\NominaEmpresa.Dominio.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Dominio\\NominaEmpresa.Dominio.csproj",
+        "projectName": "NominaEmpresa.Dominio",
+        "projectPath": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Dominio\\NominaEmpresa.Dominio.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Persistencia\\NominaEmpresa.Persistencia.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Persistencia\\NominaEmpresa.Persistencia.csproj",
+        "projectName": "NominaEmpresa.Persistencia",
+        "projectPath": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Persistencia\\NominaEmpresa.Persistencia.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Dominio\\NominaEmpresa.Dominio.csproj": {
+                "projectPath": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Dominio\\NominaEmpresa.Dominio.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Servicios\\NominaEmpresa.Servicios.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Servicios\\NominaEmpresa.Servicios.csproj",
+        "projectName": "NominaEmpresa.Servicios",
+        "projectPath": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Servicios\\NominaEmpresa.Servicios.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Dominio\\NominaEmpresa.Dominio.csproj": {
+                "projectPath": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Dominio\\NominaEmpresa.Dominio.csproj"
+              },
+              "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Persistencia\\NominaEmpresa.Persistencia.csproj": {
+                "projectPath": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Persistencia\\NominaEmpresa.Persistencia.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\TEST\\TEST.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\TEST\\TEST.csproj",
+        "projectName": "TEST",
+        "projectPath": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\TEST\\TEST.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\TEST\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Dominio\\NominaEmpresa.Dominio.csproj": {
+                "projectPath": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Dominio\\NominaEmpresa.Dominio.csproj"
+              },
+              "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Servicios\\NominaEmpresa.Servicios.csproj": {
+                "projectPath": "C:\\Calidad6.0\\PROYECTO CALIDAD V2\\PROYECTO CALIDAD\\NominaEmpresa-G02\\NominaEmpresa-G02\\NominaEmpresa.Servicios\\NominaEmpresa.Servicios.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

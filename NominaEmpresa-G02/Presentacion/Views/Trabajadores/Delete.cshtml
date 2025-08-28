@@ -1,0 +1,78 @@
+﻿@model NominaEmpresa.Dominio.Trabajadores
+
+@{
+    ViewBag.Title = "Eliminar Trabajador";
+}
+
+<div class="container-fluid">
+    <!-- Tarjeta Principal -->
+    <div class="card shadow-sm border-0 mb-4">
+        <!-- Encabezado -->
+        <div class="card-header py-3 bg-danger text-uppercase">
+            <h6 class="m-0 font-weight-bold text-white">
+                <i class="fas fa-exclamation-circle"></i> Eliminar Trabajador
+            </h6>
+        </div>
+
+        <!-- Cuerpo -->
+        <div class="card-body">
+            <h5 class="text-center font-weight-bold text-dark">
+                ¿Está seguro que desea eliminar este trabajador?
+            </h5>
+            <p class="text-center text-danger font-weight-bold">
+                Esta acción no se puede deshacer.
+            </p>
+
+            <!-- Tabla de Información del Trabajador -->
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <table class="table table-sm table-bordered table-hover">
+                        <thead class="thead-light">
+                            <tr>
+                                <th colspan="2" class="text-center">Información del Trabajador</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th class="font-weight-bold">Código</th>
+                                <td>@Model.TrabajadoresCodigo</td>
+                            </tr>
+                            <tr>
+                                <th class="font-weight-bold">Nombre Completo</th>
+                                <td>@Model.TrabajadoresNombreCompleto</td>
+                            </tr>
+                            <tr>
+                                <th class="font-weight-bold">Documento de Identidad</th>
+                                <td>@Model.TrabajadoresDocumentoIdentidad</td>
+                            </tr>
+                            <tr>
+                                <th class="font-weight-bold">Teléfono</th>
+                                <td>@Model.TrabajadoresTelefono</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="card-footer text-center">
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+                <button type="submit" class="btn btn-danger btn-icon-split shadow-sm">
+                    <span class="icon text-white-50">
+                        <i class="fas fa-trash-alt"></i>
+                    </span>
+                    <span class="text">Eliminar</span>
+                </button>
+                <a href="@Url.Action("Index")" class="btn btn-secondary btn-icon-split shadow-sm">
+                    <span class="icon text-white-50">
+                        <i class="fas fa-arrow-left"></i>
+                    </span>
+                    <span class="text">Cancelar</span>
+                </a>
+            }
+        </div>
+    </div>
+</div>

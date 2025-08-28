@@ -1,0 +1,104 @@
+﻿@model NominaEmpresa.Dominio.Trabajadores
+
+@{
+    ViewBag.Title = "Detalles del Trabajador";
+}
+
+<div class="container-fluid">
+    <div class="card shadow-sm border-0 mb-4">
+        <div class="card-header py-3 bg-primary">
+            <h6 class="m-0 font-weight-bold text-white">Detalles del Trabajador</h6>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <!-- Primera columna con detalles en formato más formal como tabla -->
+                <div class="col-md-12">
+                    <table class="table table-bordered">
+                        <thead class="thead-light">
+                            <tr>
+                                <th colspan="2" class="text-center font-weight-bold">Información Personal</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th class="font-weight-bold">Código</th>
+                                <td>@Model.TrabajadoresCodigo</td>
+                            </tr>
+                            <tr>
+                                <th class="font-weight-bold">Nombre Completo</th>
+                                <td>@Model.TrabajadoresNombreCompleto</td>
+                            </tr>
+                            <tr>
+                                <th class="font-weight-bold">Fecha de Nacimiento</th>
+                                <td>
+                                    @(Model.TrabajadoresFechaNacimiento.HasValue
+                                        ? Model.TrabajadoresFechaNacimiento.Value.ToShortDateString()
+                                        : "No especificada")
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="font-weight-bold">Documento</th>
+                                <td>@Model.TrabajadoresDocumentoIdentidad</td>
+                            </tr>
+                            <tr>
+                                <th class="font-weight-bold">Dirección</th>
+                                <td>@Model.TrabajadoresDireccion</td>
+                            </tr>
+                            <tr>
+                                <th class="font-weight-bold">Teléfono</th>
+                                <td>@Model.TrabajadoresTelefono</td>
+                            </tr>
+                            <tr>
+                                <th class="font-weight-bold">Email</th>
+                                <td>@Model.TrabajadoresEmail</td>
+                            </tr>
+                            <tr>
+                                <th class="font-weight-bold">Discapacidad</th>
+                                <td>@(Model.TrabajadoresDiscapacidad ? "Sí" : "No")</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Segunda tabla para detalles administrativos -->
+                <div class="col-md-12 mt-4">
+                    <table class="table table-bordered">
+                        <thead class="thead-light">
+                            <tr>
+                                <th colspan="2" class="text-center font-weight-bold">Información Administrativa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th class="font-weight-bold">Estado</th>
+                                <td>@Model.TrabajadoresEstado</td>
+                            </tr>
+                            <tr>
+                                <th class="font-weight-bold">Fecha de Creación</th>
+                                <td>@Model.FechaCreacion.ToString("dd/MM/yyyy HH:mm")</td>
+                            </tr>
+                            <tr>
+                                <th class="font-weight-bold">Última Modificación</th>
+                                <td>
+                                    @(Model.FechaModificacion != default(DateTime)
+                                        ? Model.FechaModificacion.ToString("dd/MM/yyyy HH:mm")
+                                        : "No modificado")
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer con botón de regresar -->
+        <div class="card-footer text-right">
+            <a href="@Url.Action("Index")" class="btn btn-secondary btn-icon-split shadow-sm">
+                <span class="icon text-white-50">
+                    <i class="fas fa-arrow-left"></i>
+                </span>
+                <span class="text">Volver a la Lista</span>
+            </a>
+        </div>
+    </div>
+</div>

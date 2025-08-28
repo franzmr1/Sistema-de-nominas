@@ -1,0 +1,143 @@
+﻿@model NominaEmpresa.Dominio.ContratoLaborales
+@{
+    ViewBag.Title = "Detalles del Contrato Laboral";
+}
+
+<!-- Encabezado de página -->
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">Detalles del Contrato Laboral</h1>
+    <div>
+        @Html.ActionLink("Volver al Listado", "Index", null, new { @class = "btn btn-secondary btn-sm shadow-sm ml-2" })
+    </div>
+</div>
+
+<!-- Contenido principal -->
+<div class="row">
+    <div class="col-xl-12">
+        <div class="card shadow mb-4">
+            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                <h6 class="m-0 font-weight-bold text-primary">Información del Contrato N° @Model.ContratoCodigo</h6>
+                <span class="badge badge-@(Model.EstadoContrato.ToString() == "A" ? "success" : "danger")">
+                    @(Model.EstadoContrato.ToString() == "A" ? "Activo" : "Inactivo")
+                </span>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <!-- Información General -->
+                    <div class="col-md-6">
+                        <div class="card mb-4">
+                            <div class="card-header py-3">
+                                <h6 class="m-0 font-weight-bold text-primary">Información General</h6>
+                            </div>
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <label class="small font-weight-bold">Código de Contrato</label>
+                                    <p class="mb-0">@Model.ContratoCodigo</p>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="small font-weight-bold">Código de Trabajador</label>
+                                    <p class="mb-0">@Model.Trabajador.TrabajadoresNombreCompleto</p>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="small font-weight-bold">Tipo de Contrato</label>
+                                    <p class="mb-0">@Model.TipoContrato.TipoContratosNombre</p>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="small font-weight-bold">Cargo</label>
+                                    <p class="mb-0">@Model.Cargo.CargosNombre</p>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="small font-weight-bold">Modalidad</label>
+                                    <p class="mb-0">@Model.Modalidad.ModalidadNombre</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Fechas y Jornada -->
+                    <div class="col-md-6">
+                        <div class="card mb-4">
+                            <div class="card-header py-3">
+                                <h6 class="m-0 font-weight-bold text-primary">Período y Jornada Laboral</h6>
+                            </div>
+                            <div class="card-body">
+                                <div class="row mb-3">
+                                    <div class="col-sm-6">
+                                        <label class="small font-weight-bold">Fecha de Inicio</label>
+                                        <p class="mb-0">@Model.FechaInicio.ToShortDateString()</p>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label class="small font-weight-bold">Fecha de Fin</label>
+                                        <p class="mb-0">@(Model.FechaFin.HasValue ? Model.FechaFin.Value.ToShortDateString() : "Indefinido")</p>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="small font-weight-bold">Días Laborables</label>
+                                    <p class="mb-0">@Model.DiaInicioJornada - @Model.DiaFinJornada</p>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="small font-weight-bold">Horario</label>
+                                    <p class="mb-0">@Model.HoraInicioJornada.ToString(@"hh\:mm") - @Model.HoraFinJornada.ToString(@"hh\:mm")</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Información Salarial -->
+                <div class="card mb-4">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Información Salarial</h6>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <label class="small font-weight-bold">Sueldo Base</label>
+                                <p class="mb-0 text-primary font-weight-bold">S/. @Model.SueldoBase.ToString("N2")</p>
+                            </div>
+                            <div class="col-sm-3">
+                                <label class="small font-weight-bold">Deducciones</label>
+                                <p class="mb-0 text-danger">% @(Model.Deducciones?.ToString("N2") ?? "0.00")</p>
+                            </div>
+                            <div class="col-sm-3">
+                                <label class="small font-weight-bold">Bonificaciones</label>
+                                <p class="mb-0 text-success">% @(Model.Bonificaciones?.ToString("N2") ?? "0.00")</p>
+                            </div>
+                            <div class="col-sm-3">
+                                <label class="small font-weight-bold">Horas Extras</label>
+                                <p class="mb-0">@(Model.HorasExtras?.ToString("N2") ?? "0.00") horas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Información de Auditoría -->
+                <div class="card mb-4">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Información de Auditoría</h6>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <label class="small font-weight-bold">Fecha de Creación</label>
+                                <p class="mb-0">@Model.FechaCreacion</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <label class="small font-weight-bold">Última Modificación</label>
+                                <p class="mb-0">@Model.FechaModificacion</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+}

@@ -1,0 +1,210 @@
+﻿@model IEnumerable<NominaEmpresa.Dominio.Trabajadores>
+@{
+    ViewBag.Title = "Trabajadores";
+}
+
+<div class="container-fluid">
+    <div class="d-sm-flex align-items-center justify-content-between mb-3">
+        <h1 class="h3 mb-0 text-gray-800">Registro de trabajadores</h1>
+        <a href="@Url.Action("Create")" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+            <i class="fas fa-user-plus fa-sm text-white-50 mr-1"></i> Nuevo Trabajador
+        </a>
+    </div>
+
+    <div class="card shadow mb-4">
+        <div class="card-header py-2">
+            <h6 class="m-0 font-weight-bold text-primary">Trabajadores ACTIVOS</h6>
+        </div>
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table table-bordered table-sm" id="dataTable" width="100%">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nombre Completo</th>
+                            <th>DNI</th>
+                            <th>Teléfono</th>
+                            <th>Email</th>
+                            <th class="acciones-column">Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.TrabajadoresCodigo</td>
+                                <td>@item.TrabajadoresNombreCompleto</td>
+                                <td>@item.TrabajadoresDocumentoIdentidad</td>
+                                <td>@item.TrabajadoresTelefono</td>
+                                <td>@item.TrabajadoresEmail</td>
+                                <td class="text-center p-1">
+                                    <div class="btn-group">
+                                        <a href="@Url.Action("Edit", new { id = item.TrabajadoresCodigo })" class="btn btn-primary btn-circle btn-sm" title="Editar">
+                                            <i class="fas fa-edit"></i>
+                                        </a>
+                                        <a href="@Url.Action("Details", new { id = item.TrabajadoresCodigo })" class="btn btn-info btn-circle btn-sm mx-1" title="Detalles">
+                                            <i class="fas fa-info-circle"></i>
+                                        </a>
+                                        <a href="@Url.Action("Delete", new { id = item.TrabajadoresCodigo })" class="btn btn-danger btn-circle btn-sm" title="Eliminar">
+                                            <i class="fas fa-trash"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <!-- DataTables CSS -->
+    <link href="~/Theme/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+
+    <style>
+        /* Estilos optimizados */
+        .btn-circle {
+            width: 2rem;
+            height: 2rem;
+            padding: 0.375rem;
+            border-radius: 50%;
+            font-size: 0.75rem;
+            line-height: 1;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Optimización de DataTables */
+        .dataTables_wrapper {
+            padding: 0.5rem;
+        }
+
+            .dataTables_wrapper .row {
+                margin: 0;
+                align-items: center;
+            }
+
+        .dataTables_length select,
+        .dataTables_filter input {
+            height: 2rem;
+            padding: 0.25rem 0.5rem;
+            font-size: 0.875rem;
+        }
+
+        .dataTables_length select {
+            min-width: 4.5rem;
+        }
+
+        .dataTables_filter input {
+            min-width: 12.5rem;
+        }
+
+        /* Optimización de la tabla */
+        .table-sm td,
+        .table-sm th {
+            padding: 0.5rem;
+            vertical-align: middle;
+        }
+
+        /* Optimización del paginador */
+        .pagination {
+            margin: 0;
+            padding: 0;
+        }
+
+        .page-link {
+            padding: 0.25rem 0.75rem;
+            font-size: 0.875rem;
+            line-height: 1.5;
+        }
+
+        /* Columna de acciones */
+        .acciones-column {
+            width: 6.25rem !important;
+            text-align: center;
+        }
+
+        .btn-group {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25rem;
+        }
+
+        /* Info y longitud de registros */
+        .dataTables_info,
+        .dataTables_length {
+            font-size: 0.875rem;
+            padding: 0.25rem 0;
+        }
+    </style>
+}
+
+@section Scripts {
+    <!-- DataTables JavaScript -->
+    <script src="~/Theme/vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/Theme/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            const dataTable = $('#dataTable').DataTable({
+                language: {
+                    url: 'https://cdn.datatables.net/plug-ins/1.10.25/i18n/Spanish.json',
+                    lengthMenu: '_MENU_',
+                    search: '_INPUT_',
+                    searchPlaceholder: 'Buscar trabajador...',
+                    info: '_START_ - _END_ de _TOTAL_',
+                    infoEmpty: '0 registros',
+                    infoFiltered: '(de _MAX_)',
+                    zeroRecords: 'No se encontraron resultados',
+                    paginate: {
+                        first: '«',
+                        previous: '‹',
+                        next: '›',
+                        last: '»'
+                    }
+                },
+                pageLength: 10,
+                lengthMenu: [[10, 25, 50], ['10', '25', '50']],
+                ordering: true,
+                searching: true,
+                processing: true,
+                deferRender: true,
+                scrollCollapse: true,
+                columnDefs: [
+                    { orderable: true, targets: [0, 1] },
+                    { orderable: false, targets: '_all' },
+                    { searchable: false, targets: [5] },
+                    { width: "100px", targets: 5 }
+                ],
+                order: [[0, 'asc']],
+                dom: '<"row"<"col-sm-12 col-md-6"l><"col-sm-12 col-md-6"f>>' +
+                    '<"row"<"col-sm-12"tr>>' +
+                    '<"row"<"col-sm-12 col-md-5"i><"col-sm-12 col-md-7"p>>',
+                drawCallback: function (settings) {
+                    // Ajusta el espaciado del paginador
+                    $('.dataTables_paginate').addClass('pagination-sm');
+                    $('.paginate_button').addClass('px-2');
+                }
+            });
+
+            // Implementa búsqueda con debounce
+            const searchInput = $('.dataTables_filter input');
+            let searchTimeout;
+
+            searchInput
+                .attr('autocomplete', 'off')
+                .off('keyup search input')
+                .on('input', function () {
+                    clearTimeout(searchTimeout);
+                    searchTimeout = setTimeout(() => {
+                        dataTable.search(this.value).draw();
+                    }, 300);
+                });
+
+
+        });
+    </script>
+}

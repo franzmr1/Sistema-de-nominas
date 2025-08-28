@@ -1,0 +1,110 @@
+C:\Users\Sergio\source\repos\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Servicios.dll
+C:\Users\Sergio\source\repos\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Servicios.pdb
+C:\Users\Sergio\source\repos\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Dominio.dll
+C:\Users\Sergio\source\repos\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Persistencia.dll
+C:\Users\Sergio\source\repos\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Dominio.pdb
+C:\Users\Sergio\source\repos\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Persistencia.pdb
+C:\Users\Sergio\source\repos\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.csproj.AssemblyReference.cache
+C:\Users\Sergio\source\repos\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\source\repos\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEm.B4F5BAC8.Up2Date
+C:\Users\Sergio\source\repos\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.dll
+C:\Users\Sergio\source\repos\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.pdb
+C:\Users\UCV\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Servicios.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Servicios.pdb
+C:\Users\UCV\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Dominio.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Persistencia.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Dominio.pdb
+C:\Users\UCV\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Persistencia.pdb
+C:\Users\UCV\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.csproj.AssemblyReference.cache
+C:\Users\UCV\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.csproj.CoreCompileInputs.cache
+C:\Users\UCV\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.csproj.CopyComplete
+C:\Users\UCV\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.pdb
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Servicios.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Servicios.pdb
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Dominio.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Persistencia.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Dominio.pdb
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Persistencia.pdb
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.csproj.AssemblyReference.cache
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEm.B4F5BAC8.Up2Date
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.pdb
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Servicios.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Servicios.pdb
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Dominio.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Persistencia.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Dominio.pdb
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Persistencia.pdb
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.csproj.AssemblyReference.cache
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEm.B4F5BAC8.Up2Date
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.pdb
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Servicios.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Servicios.pdb
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Dominio.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Persistencia.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Dominio.pdb
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Persistencia.pdb
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.csproj.AssemblyReference.cache
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEm.B4F5BAC8.Up2Date
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.pdb
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Servicios.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Servicios.pdb
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Dominio.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Persistencia.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Dominio.pdb
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Persistencia.pdb
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.csproj.AssemblyReference.cache
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.csproj.CoreCompileInputs.cache
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.csproj.CopyComplete
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.pdb
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Servicios.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Servicios.pdb
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Dominio.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Persistencia.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Dominio.pdb
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Persistencia.pdb
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.csproj.AssemblyReference.cache
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEm.B4F5BAC8.Up2Date
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.pdb
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Servicios.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Servicios.pdb
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Dominio.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Persistencia.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Dominio.pdb
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Persistencia.pdb
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.csproj.AssemblyReference.cache
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.csproj.CopyComplete
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.pdb
+C:\Users\UCV\Downloads\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Servicios.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Servicios.pdb
+C:\Users\UCV\Downloads\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Dominio.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Persistencia.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Dominio.pdb
+C:\Users\UCV\Downloads\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Persistencia.pdb
+C:\Users\UCV\Downloads\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.csproj.AssemblyReference.cache
+C:\Users\UCV\Downloads\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.csproj.CoreCompileInputs.cache
+C:\Users\UCV\Downloads\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.csproj.CopyComplete
+C:\Users\UCV\Downloads\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.pdb
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Servicios.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Servicios.pdb
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Dominio.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Persistencia.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Dominio.pdb
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\NominaEmpresa.Servicios\bin\Debug\NominaEmpresa.Persistencia.pdb
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.csproj.AssemblyReference.cache
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEm.B4F5BAC8.Up2Date
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\NominaEmpresa.Servicios\obj\Debug\NominaEmpresa.Servicios.pdb

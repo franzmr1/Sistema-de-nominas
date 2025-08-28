@@ -1,0 +1,429 @@
+﻿@{
+    ViewBag.Title = "Gestión de Periodos";
+    var periodosActivos = ViewBag.PeriodosActivos as IEnumerable<NominaEmpresa.Dominio.Periodos>;
+    var periodosInactivos = ViewBag.PeriodosInactivos as IEnumerable<NominaEmpresa.Dominio.Periodos>;
+    var proximoPeriodo = ViewBag.ProximoPeriodo as NominaEmpresa.Dominio.Periodos;
+    var ultimoPeriodoPagado = ViewBag.UltimoPeriodoPagado as NominaEmpresa.Dominio.Periodos;
+}
+
+<div class="container-fluid">
+    <!-- Alertas de información importante -->
+    @if (ultimoPeriodoPagado != null)
+    {
+        <div class="alert alert-info alert-dismissible fade show mb-4" role="alert">
+            <i class="fas fa-info-circle mr-2"></i>
+            <strong>Último período procesado:</strong> @ultimoPeriodoPagado.PeriodoNombre
+            <small class="ml-2 text-muted">(Solo se puede activar el siguiente período en secuencia)</small>
+            <button type="button" class="close" data-dismiss="alert">
+                <span>&times;</span>
+            </button>
+        </div>
+    }
+
+    <div class="row mb-4">
+        <!-- Columna para los Periodos Activo y Próximo (en horizontal) -->
+        <div class="col-lg-6 col-xl-6">
+            <!-- Periodo Activo -->
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">
+                        <i class="fas fa-calendar-check mr-2"></i>
+                        Período Activo
+                    </h6>
+                </div>
+                <div class="card-body">
+                    @if (periodosActivos != null && periodosActivos.Any())
+                    {
+                        var periodoActivo = periodosActivos.First();
+                        <div class="text-center">
+                            <i class="fas fa-calendar-check fa-3x text-primary mb-3"></i>
+                            <h4 class="mb-1">@periodoActivo.PeriodoNombre</h4>
+                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-3">
+                                Código: @periodoActivo.PeriodoCodigo
+                            </div>
+
+                            <!-- Verificar si tiene pagos -->
+                            <div class="mb-3" id="estadoPagosActivo" data-periodo="@periodoActivo.PeriodoCodigo">
+                                <small class="text-muted">Verificando estado de pagos...</small>
+                            </div>
+
+                            @using (Html.BeginForm("Cerrar", "Periodos", new { id = periodoActivo.PeriodoCodigo }, FormMethod.Post))
+                            {
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn btn-danger btn-sm"
+                                        onclick="return confirmarCierre(event, @periodoActivo.PeriodoCodigo)">
+                                    <i class="fas fa-lock mr-2"></i>Cerrar Período
+                                </button>
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="text-center">
+                            <i class="fas fa-exclamation-circle fa-3x text-warning mb-3"></i>
+                            <p class="mb-0">No hay período activo</p>
+                            <small class="text-muted">Active un período de la lista inferior</small>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-xl-6">
+            <!-- Próximo Periodo -->
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-success">
+                        <i class="fas fa-calendar-plus mr-2"></i>
+                        Próximo Período Disponible
+                    </h6>
+                </div>
+                <div class="card-body">
+                    @if (proximoPeriodo != null)
+                    {
+                        <div class="text-center">
+                            <i class="fas fa-calendar-plus fa-3x text-success mb-3"></i>
+                            <h4 class="mb-1">@proximoPeriodo.PeriodoNombre</h4>
+                            <div class="text-xs font-weight-bold text-success text-uppercase mb-3">
+                                Código: @proximoPeriodo.PeriodoCodigo
+                            </div>
+
+                            <!-- Estado de validación -->
+                            <div class="mb-3" id="validacionProximo" data-periodo="@proximoPeriodo.PeriodoCodigo">
+                                <small class="text-muted">Verificando disponibilidad...</small>
+                            </div>
+
+                            @using (Html.BeginForm("Activar", "Periodos", new { id = proximoPeriodo.PeriodoCodigo }, FormMethod.Post))
+                            {
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn btn-success btn-sm" id="btnActivar"
+                                        onclick="return confirmarActivacion(event, @proximoPeriodo.PeriodoCodigo)">
+                                    <i class="fas fa-power-off mr-2"></i>Activar Período
+                                </button>
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="text-center">
+                            <i class="fas fa-exclamation-circle fa-3x text-muted mb-3"></i>
+                            <p class="mb-0">No hay próximo período disponible</p>
+                            <small class="text-muted">
+                                @if (ultimoPeriodoPagado == null)
+                                {
+                                    <span>Active cualquier período para comenzar</span>
+                                }
+                                else
+                                {
+                                    <span>Todos los períodos siguientes ya fueron procesados o no están disponibles</span>
+                                }
+                            </small>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tabla de Periodos Inactivos Disponibles -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3 d-flex align-items-center justify-content-between">
+            <h6 class="m-0 font-weight-bold text-primary">
+                <i class="fas fa-list mr-2"></i>
+                Períodos Disponibles para Activar
+            </h6>
+            <small class="text-muted">Solo se muestran períodos que pueden activarse en secuencia</small>
+        </div>
+        <div class="card-body">
+            @if (periodosInactivos != null && periodosInactivos.Any())
+            {
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover" id="tablaPeriodosInactivos">
+                        <thead>
+                            <tr>
+                                <th>Código</th>
+                                <th>Nombre</th>
+                                <th class="text-center estado-column">Estado</th>
+                                <th class="text-center validacion-column">Validación</th>
+                                <th class="text-center acciones-column">Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in periodosInactivos)
+                            {
+                                <tr data-periodo="@item.PeriodoCodigo">
+                                    <td>@item.PeriodoCodigo</td>
+                                    <td>
+                                        <strong>@item.PeriodoNombre</strong>
+                                        @if (item.PeriodoFechaInicio != default(DateTime))
+                                        {
+                                            <br><small class="text-muted">@item.PeriodoFechaInicio.ToString("dd/MM/yyyy") - @item.PeriodoFechaFin.ToString("dd/MM/yyyy")</small>
+                                        }
+                                    </td>
+                                    <td class="text-center">
+                                        <span class="badge badge-secondary">Disponible</span>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="validacion-estado" data-periodo="@item.PeriodoCodigo">
+                                            <span class="badge badge-info">
+                                                <i class="fas fa-spinner fa-spin"></i> Verificando...
+                                            </span>
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        @using (Html.BeginForm("Activar", "Periodos", new { id = item.PeriodoCodigo },
+                                            FormMethod.Post, new { style = "display:inline" }))
+                                        {
+                                            @Html.AntiForgeryToken()
+                                            <button type="submit"
+                                                    class="btn btn-success btn-sm btn-activar"
+                                                    data-periodo="@item.PeriodoCodigo"
+                                                    onclick="return confirmarActivacion(event, @item.PeriodoCodigo)"
+                                                    data-toggle="tooltip"
+                                                    title="Activar período">
+                                                <i class="fas fa-power-off"></i>
+                                            </button>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            else
+            {
+                <div class="text-center py-4">
+                    <i class="fas fa-info-circle fa-3x text-muted mb-3"></i>
+                    <p class="text-muted mb-0">No hay períodos disponibles para activar</p>
+                    <small class="text-muted">
+                        @if (ultimoPeriodoPagado != null)
+                        {
+                            <span>El sistema está al día. Cree nuevos períodos si es necesario.</span>
+                        }
+                        else
+                        {
+                            <span>No hay períodos configurados en el sistema.</span>
+                        }
+                    </small>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<style>
+    #tablaPeriodosInactivos {
+        width: 100%;
+        border-spacing: 0;
+    }
+
+    .estado-column {
+        width: 120px;
+    }
+
+    .validacion-column {
+        width: 150px;
+    }
+
+    .acciones-column {
+        width: 100px;
+    }
+
+    .validacion-estado .badge {
+        font-size: 0.75rem;
+        padding: 0.4rem 0.6rem;
+    }
+
+    .card-header small {
+        font-size: 0.8rem;
+    }
+
+    .alert {
+        border-left: 4px solid #17a2b8;
+    }
+</style>
+
+@section Scripts {
+    <!-- SweetAlert2 para notificaciones -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Inicializar DataTable
+            if ($('#tablaPeriodosInactivos tbody tr').length > 0) {
+                $('#tablaPeriodosInactivos').DataTable({
+                    language: {
+                        url: '//cdn.datatables.net/plug-ins/1.10.24/i18n/Spanish.json'
+                    },
+                    pageLength: 10,
+                    dom: 'Bfrtip',
+                    order: [[0, 'asc']]
+                });
+            }
+
+            // Inicializar tooltips
+            $('[data-toggle="tooltip"]').tooltip();
+
+            // Verificar validaciones al cargar la página
+            verificarValidacionesPeriodos();
+            verificarEstadoPagos();
+        });
+
+        // Función para verificar validaciones de todos los períodos
+        function verificarValidacionesPeriodos() {
+            $('.validacion-estado').each(function () {
+                const $elemento = $(this);
+                const periodoCodigo = $elemento.data('periodo');
+
+                $.ajax({
+                    url: '/Periodos/ValidarActivacion/' + periodoCodigo,
+                    type: 'GET',
+                    success: function (data) {
+                        if (data.success) {
+                            if (data.puedeActivar) {
+                                $elemento.html(`
+                                        <span class="badge badge-success" title="${data.razon}">
+                                            <i class="fas fa-check"></i> Puede activarse
+                                        </span>
+                                    `);
+                                $(`.btn-activar[data-periodo="${periodoCodigo}"]`).prop('disabled', false);
+                            } else {
+                                $elemento.html(`
+                                        <span class="badge badge-danger" title="${data.razon}">
+                                            <i class="fas fa-times"></i> No disponible
+                                        </span>
+                                    `);
+                                $(`.btn-activar[data-periodo="${periodoCodigo}"]`).prop('disabled', true);
+                            }
+                        } else {
+                            $elemento.html(`
+                                    <span class="badge badge-warning">
+                                        <i class="fas fa-exclamation"></i> Error
+                                    </span>
+                                `);
+                        }
+                    },
+                    error: function () {
+                        $elemento.html(`
+                                <span class="badge badge-warning">
+                                    <i class="fas fa-exclamation"></i> Error
+                                </span>
+                            `);
+                    }
+                });
+            });
+        }
+
+        // Función para verificar estado de pagos del período activo
+        function verificarEstadoPagos() {
+            const $estadoPagos = $('#estadoPagosActivo');
+            if ($estadoPagos.length > 0) {
+                const periodoCodigo = $estadoPagos.data('periodo');
+
+                // Simulación - en tu caso deberías hacer una llamada AJAX real
+                // para verificar si el período tiene pagos
+                $estadoPagos.html(`
+                        <span class="badge badge-info">
+                            <i class="fas fa-info-circle"></i> Listo para procesar pagos
+                        </span>
+                    `);
+            }
+
+            // Validación del próximo período
+            const $validacionProximo = $('#validacionProximo');
+            if ($validacionProximo.length > 0) {
+                const periodoCodigo = $validacionProximo.data('periodo');
+
+                $.ajax({
+                    url: '/Periodos/ValidarActivacion/' + periodoCodigo,
+                    type: 'GET',
+                    success: function (data) {
+                        if (data.success && data.puedeActivar) {
+                            $validacionProximo.html(`
+                                    <span class="badge badge-success">
+                                        <i class="fas fa-check"></i> Listo para activar
+                                    </span>
+                                `);
+                        } else {
+                            $validacionProximo.html(`
+                                    <span class="badge badge-warning" title="${data.razon}">
+                                        <i class="fas fa-exclamation"></i> ${data.razon}
+                                    </span>
+                                `);
+                            $('#btnActivar').prop('disabled', true);
+                        }
+                    }
+                });
+            }
+        }
+
+        // Función para confirmar activación
+        function confirmarActivacion(event, periodoCodigo) {
+            event.preventDefault();
+            const form = event.target.closest('form');
+
+            Swal.fire({
+                title: '¿Activar período?',
+                text: 'Se cerrará el período actual (si existe) y se activará el nuevo período.',
+                icon: 'question',
+                showCancelButton: true,
+                confirmButtonColor: '#28a745',
+                cancelButtonColor: '#6c757d',
+                confirmButtonText: 'Sí, activar',
+                cancelButtonText: 'Cancelar',
+                showLoaderOnConfirm: true,
+                preConfirm: () => {
+                    return $.ajax({
+                        url: '/Periodos/ValidarActivacion/' + periodoCodigo,
+                        type: 'GET'
+                    });
+                }
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    const data = result.value;
+                    if (data.success && data.puedeActivar) {
+                        form.submit();
+                    } else {
+                        Swal.fire({
+                            title: 'No se puede activar',
+                            text: data.razon || 'El período no puede ser activado en este momento.',
+                            icon: 'error',
+                            confirmButtonText: 'Entendido'
+                        });
+                    }
+                }
+            });
+
+            return false;
+        }
+
+        // Función para confirmar cierre
+        function confirmarCierre(event, periodoCodigo) {
+            event.preventDefault();
+            const form = event.target.closest('form');
+
+            Swal.fire({
+                title: '¿Cerrar período activo?',
+                text: 'Esta acción cerrará el período actual. Asegúrese de haber procesado todos los pagos necesarios.',
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#dc3545',
+                cancelButtonColor: '#6c757d',
+                confirmButtonText: 'Sí, cerrar',
+                cancelButtonText: 'Cancelar'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    form.submit();
+                }
+            });
+
+            return false;
+        }
+
+        // Actualizar tooltips dinámicamente
+        $(document).on('DOMNodeInserted', function () {
+            $('[title]').tooltip();
+        });
+    </script>
+}

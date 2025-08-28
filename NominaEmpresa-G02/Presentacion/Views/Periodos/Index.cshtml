@@ -1,0 +1,173 @@
+﻿@{
+    ViewBag.Title = "Gestión de Periodos";
+    var periodosActivos = ViewBag.PeriodosActivos as IEnumerable<NominaEmpresa.Dominio.Periodos>;
+    var periodosInactivos = ViewBag.PeriodosInactivos as IEnumerable<NominaEmpresa.Dominio.Periodos>;
+    var proximoPeriodo = ViewBag.ProximoPeriodo as NominaEmpresa.Dominio.Periodos;
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xl-4 col-lg-5">
+            <!-- Periodo Activo -->
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Periodo Activo</h6>
+                </div>
+                <div class="card-body">
+                    @if (periodosActivos != null && periodosActivos.Any())
+                    {
+                        var periodoActivo = periodosActivos.First();
+                        <div class="text-center">
+                            <i class="fas fa-calendar-check fa-3x text-primary mb-3"></i>
+                            <h4 class="mb-1">@periodoActivo.PeriodoNombre</h4>
+                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-3">
+                                Código: @periodoActivo.PeriodoCodigo
+                            </div>
+                            @using (Html.BeginForm("Cerrar", "Periodos", new { id = periodoActivo.PeriodoCodigo }, FormMethod.Post))
+                            {
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn btn-danger btn-sm"
+                                        onclick="return confirmarAccion(event, '¿Está seguro de cerrar este periodo?')">
+                                    <i class="fas fa-lock mr-2"></i>Cerrar Periodo
+                                </button>
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="text-center">
+                            <i class="fas fa-exclamation-circle fa-3x text-warning mb-3"></i>
+                            <p class="mb-0">No hay periodo activo</p>
+                            <small class="text-muted">Active un periodo de la lista inferior</small>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <!-- Próximo Periodo -->
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-success">Próximo Periodo</h6>
+                </div>
+                <div class="card-body">
+                    @if (proximoPeriodo != null)
+                    {
+                        <div class="text-center">
+                            <i class="fas fa-calendar-plus fa-3x text-success mb-3"></i>
+                            <h4 class="mb-1">@proximoPeriodo.PeriodoNombre</h4>
+                            <div class="text-xs font-weight-bold text-success text-uppercase mb-3">
+                                Código: @proximoPeriodo.PeriodoCodigo
+                            </div>
+                            @using (Html.BeginForm("Activar", "Periodos", new { id = proximoPeriodo.PeriodoCodigo }, FormMethod.Post))
+                            {
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn btn-success btn-sm"
+                                        onclick="return confirmarAccion(event, '¿Está seguro de activar este periodo?')">
+                                    <i class="fas fa-power-off mr-2"></i>Activar Periodo
+                                </button>
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="text-center">
+                            <i class="fas fa-exclamation-circle fa-3x text-muted mb-3"></i>
+                            <p class="mb-0">No hay próximo periodo definido</p>
+                            <small class="text-muted">Cree un nuevo periodo o active uno existente</small>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-8 col-lg-7">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3 d-flex align-items-center justify-content-between">
+                    <h6 class="m-0 font-weight-bold text-primary">Periodos Inactivos</h6>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered" id="tablaPeriodosInactivos" width="100%" cellspacing="0">
+                            <thead>
+                                <tr>
+                                    <th>Código</th>
+                                    <th>Nombre</th>
+                                    <th width="100px">Estado</th>
+                                    <th width="120px">Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (periodosInactivos != null && periodosInactivos.Any())
+                                {
+                                    foreach (var item in periodosInactivos)
+                                    {
+                                        <tr>
+                                            <td>@item.PeriodoCodigo</td>
+                                            <td>@item.PeriodoNombre</td>
+                                            <td class="text-center">
+                                                <span class="badge badge-secondary">Inactivo</span>
+                                            </td>
+                                            <td class="text-center">
+                                                
+                                                @using (Html.BeginForm("Activar", "Periodos", new { id = item.PeriodoCodigo },
+                                                    FormMethod.Post, new { style = "display:inline" }))
+                                                {
+                                                    @Html.AntiForgeryToken()
+                                                    <button type="submit"
+                                                            class="btn btn-success btn-sm ml-1"
+                                                            onclick="return confirmarAccion(event, '¿Está seguro de activar este periodo?')"
+                                                            data-toggle="tooltip"
+                                                            title="Activar">
+                                                        <i class="fas fa-power-off"></i>
+                                                    </button>
+                                                }
+                                            </td>
+                                        </tr>
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#tablaPeriodosInactivos').DataTable({
+                language: {
+                    url: '//cdn.datatables.net/plug-ins/1.10.24/i18n/Spanish.json'
+                },
+                pageLength: 10,
+                dom: 'Bfrtip',
+            });
+
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+
+        function confirmarAccion(event, mensaje) {
+            event.preventDefault();
+            const form = event.target.closest('form');
+
+            Swal.fire({
+                title: '¿Está seguro?',
+                text: mensaje,
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Sí',
+                cancelButtonText: 'No'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    form.submit();
+                }
+            });
+
+            return false;
+        }
+    </script>
+}

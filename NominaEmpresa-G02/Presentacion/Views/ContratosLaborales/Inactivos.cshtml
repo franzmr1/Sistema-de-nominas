@@ -1,0 +1,207 @@
+﻿@model IEnumerable<NominaEmpresa.Dominio.ContratoLaborales>
+@{
+    ViewBag.Title = "Contratos Laborales Inactivos";
+}
+
+<div class="container-fluid">
+    <div class="d-sm-flex align-items-center justify-content-between mb-3">
+        <h1 class="h3 mb-0 text-gray-800">Registro de Contratos Laborales</h1>
+        <a href="@Url.Action("Index")" class="d-none d-sm-inline-block btn btn-sm btn-secondary shadow-sm">
+            <i class="fas fa-arrow-left fa-sm text-white-50 mr-1"></i> Volver a Activos
+        </a>
+    </div>
+
+    <div class="card shadow mb-4">
+        <div class="card-header py-2">
+            <h6 class="m-0 font-weight-bold text-secondary">Contratos INACTIVOS</h6>
+        </div>
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table table-bordered table-sm" id="dataTable" width="100%">
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>Trabajador</th>
+                            <th>Fecha Inicio</th>
+                            <th>Fecha Fin</th>
+                            <th>Sueldo Base</th>
+                            <th>Modalidad</th>
+                            <th class="acciones-column">Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.ContratoCodigo</td>
+                                <td>@item.Trabajador.TrabajadoresNombreCompleto</td>
+                                <td class="text-center">@item.FechaInicio.ToString("dd/MM/yyyy")</td>
+                                <td class="text-center">@(item.FechaFin.HasValue ? item.FechaFin.Value.ToString("dd/MM/yyyy") : "Indefinido")</td>
+                                <td class="text-right">@item.SueldoBase.ToString("C", new System.Globalization.CultureInfo("es-PE"))
+
+<td>@item.Modalidad.ModalidadNombre</td>
+                                <td class="text-center p-1">
+                                    <div class="btn-group">
+                                        <a href="@Url.Action("DetailsInactivos", new { id = item.ContratoCodigo })" class="btn btn-info btn-circle btn-sm" title="Detalles">
+                                            <i class="fas fa-info-circle"></i>
+                                        </a>
+                                        <a href="@Url.Action("Recuperar", new { id = item.ContratoCodigo })" class="btn btn-success btn-circle btn-sm mx-1" title="Recuperar">
+                                            <i class="fas fa-undo"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <!-- DataTables CSS -->
+    <link href="~/Theme/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+
+    <style>
+        /* Estilos optimizados */
+        .btn-circle {
+            width: 2rem;
+            height: 2rem;
+            padding: 0.375rem;
+            border-radius: 50%;
+            font-size: 0.75rem;
+            line-height: 1;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Optimización de DataTables */
+        .dataTables_wrapper {
+            padding: 0.5rem;
+        }
+
+            .dataTables_wrapper .row {
+                margin: 0;
+                align-items: center;
+            }
+
+        .dataTables_length select,
+        .dataTables_filter input {
+            height: 2rem;
+            padding: 0.25rem 0.5rem;
+            font-size: 0.875rem;
+        }
+
+        .dataTables_length select {
+            min-width: 4.5rem;
+        }
+
+        .dataTables_filter input {
+            min-width: 12.5rem;
+        }
+
+        /* Optimización de la tabla */
+        .table-sm td,
+        .table-sm th {
+            padding: 0.5rem;
+            vertical-align: middle;
+        }
+
+        /* Optimización del paginador */
+        .pagination {
+            margin: 0;
+            padding: 0;
+        }
+
+        .page-link {
+            padding: 0.25rem 0.75rem;
+            font-size: 0.875rem;
+            line-height: 1.5;
+        }
+
+        /* Columna de acciones */
+        .acciones-column {
+            width: 6.25rem !important;
+            text-align: center;
+        }
+
+        .btn-group {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25rem;
+        }
+
+        /* Info y longitud de registros */
+        .dataTables_info,
+        .dataTables_length {
+            font-size: 0.875rem;
+            padding: 0.25rem 0;
+        }
+    </style>
+}
+
+@section Scripts {
+    <!-- DataTables JavaScript -->
+    <script src="~/Theme/vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/Theme/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            const dataTable = $('#dataTable').DataTable({
+                language: {
+                    url: 'https://cdn.datatables.net/plug-ins/1.10.25/i18n/Spanish.json',
+                    lengthMenu: '_MENU_',
+                    search: '_INPUT_',
+                    searchPlaceholder: 'Buscar contrato inactivo...',
+                    info: '_START_ - _END_ de _TOTAL_',
+                    infoEmpty: '0 registros',
+                    infoFiltered: '(de _MAX_)',
+                    zeroRecords: 'No se encontraron resultados',
+                    paginate: {
+                        first: '«',
+                        previous: '‹',
+                        next: '›',
+                        last: '»'
+                    }
+                },
+                pageLength: 10,
+                lengthMenu: [[10, 25, 50], ['10', '25', '50']],
+                ordering: true,
+                searching: true,
+                processing: true,
+                deferRender: true,
+                scrollCollapse: true,
+                columnDefs: [
+                    { orderable: true, targets: [0, 1, 2, 3] },
+                    { orderable: false, targets: '_all' },
+                    { searchable: false, targets: [6] },
+                    { width: "100px", targets: 6 }
+                ],
+                order: [[0, 'asc']],
+                dom: '<"row"<"col-sm-12 col-md-6"l><"col-sm-12 col-md-6"f>>' +
+                    '<"row"<"col-sm-12"tr>>' +
+                    '<"row"<"col-sm-12 col-md-5"i><"col-sm-12 col-md-7"p>>',
+                drawCallback: function (settings) {
+                    $('.dataTables_paginate').addClass('pagination-sm');
+                    $('.paginate_button').addClass('px-2');
+                }
+            });
+
+            // Implementa búsqueda con debounce
+            const searchInput = $('.dataTables_filter input');
+            let searchTimeout;
+
+            searchInput
+                .attr('autocomplete', 'off')
+                .off('keyup search input')
+                .on('input', function () {
+                    clearTimeout(searchTimeout);
+                    searchTimeout = setTimeout(() => {
+                        dataTable.search(this.value).draw();
+                    }, 300);
+                });
+        });
+    </script>
+}

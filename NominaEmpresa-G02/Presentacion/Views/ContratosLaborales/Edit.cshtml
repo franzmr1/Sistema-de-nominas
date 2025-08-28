@@ -1,0 +1,224 @@
+﻿@model NominaEmpresa.Dominio.ContratoLaborales
+
+@{
+    ViewBag.Title = "Editar Contrato Laboral";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Page Heading -->
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">Editar Contrato Laboral</h1>
+    <a href="@Url.Action("Index")" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+        <i class="fas fa-arrow-left fa-sm text-white-50"></i> Volver a la lista
+    </a>
+</div>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.ContratoCodigo)
+
+    <!-- Información del Contrato -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3 d-flex align-items-center justify-content-between">
+            <h6 class="m-0 font-weight-bold text-primary">Información del Contrato</h6>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                        @Html.DropDownListFor(model => model.TrabajadoresCodigo,
+    (IEnumerable<SelectListItem>)ViewBag.Trabajadores,
+    new { @class = "form-control", style = "background-color: #e9ecef;" })
+
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.TipoContratosCodigo, "Tipo de Contrato", new { @class = "form-label font-weight-bold" })
+                        @Html.DropDownList("TipoContratosCodigo", (IEnumerable<SelectListItem>)ViewBag.TiposContrato, "Seleccione un tipo", new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.TipoContratosCodigo, "", new { @class = "text-danger small" })
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.FechaInicio, "Fecha de Inicio", new { @class = "form-label font-weight-bold" })
+                        @{
+                            var fechaInicioStr = Model.FechaInicio.ToString("yyyy-MM-dd");
+                        }
+                        @Html.TextBoxFor(model => model.FechaInicio, fechaInicioStr, new { @class = "form-control datepicker shadow-sm", type = "date" })
+                        @Html.ValidationMessageFor(model => model.FechaInicio, "", new { @class = "text-danger small" })
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.FechaFin, "Fecha de Fin", new { @class = "form-label font-weight-bold" })
+                        @{
+                            var fechaFinStr = Model.FechaFin.HasValue ? Model.FechaFin.Value.ToString("yyyy-MM-dd") : "";
+                        }
+                        @Html.TextBoxFor(model => model.FechaFin, fechaFinStr, new { @class = "form-control datepicker shadow-sm", type = "date" })
+                        @Html.ValidationMessageFor(model => model.FechaFin, "", new { @class = "text-danger small" })
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.CargosCodigo, "Cargo", new { @class = "form-label font-weight-bold" })
+                        @Html.DropDownList("CargosCodigo", (IEnumerable<SelectListItem>)ViewBag.Cargos, "Seleccione un cargo", new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.CargosCodigo, "", new { @class = "text-danger small" })
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.ModalidadCodigo, "Modalidad", new { @class = "form-label font-weight-bold" })
+                        @Html.DropDownList("ModalidadCodigo", (IEnumerable<SelectListItem>)ViewBag.Modalidades, "Seleccione una modalidad", new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.ModalidadCodigo, "", new { @class = "text-danger small" })
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jornada Laboral -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3 d-flex align-items-center justify-content-between">
+            <h6 class="m-0 font-weight-bold text-primary">Jornada Laboral</h6>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.DiaInicioJornada, "Día Inicio", new { @class = "form-label font-weight-bold" })
+                        @Html.DropDownList("DiaInicioJornada", (IEnumerable<SelectListItem>)ViewBag.DiasSemana, "Seleccione día inicial", new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.DiaInicioJornada, "", new { @class = "text-danger small" })
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.DiaFinJornada, "Día Fin", new { @class = "form-label font-weight-bold" })
+                        @Html.DropDownList("DiaFinJornada", (IEnumerable<SelectListItem>)ViewBag.DiasSemana, "Seleccione día final", new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.DiaFinJornada, "", new { @class = "text-danger small" })
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.HoraInicioJornada, "Hora Inicio", new { @class = "form-label font-weight-bold" })
+                        @Html.EditorFor(model => model.HoraInicioJornada, new { htmlAttributes = new { @class = "form-control shadow-sm", type = "time" } })
+                        @Html.ValidationMessageFor(model => model.HoraInicioJornada, "", new { @class = "text-danger small" })
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.HoraFinJornada, "Hora Fin", new { @class = "form-label font-weight-bold" })
+                        @Html.EditorFor(model => model.HoraFinJornada, new { htmlAttributes = new { @class = "form-control shadow-sm", type = "time" } })
+                        @Html.ValidationMessageFor(model => model.HoraFinJornada, "", new { @class = "text-danger small" })
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Información Salarial -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3 d-flex align-items-center justify-content-between">
+            <h6 class="m-0 font-weight-bold text-primary">Información Salarial</h6>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.SueldoBase, "Sueldo Base", new { @class = "form-label font-weight-bold" })
+                        <div class="input-group shadow-sm">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">S/.</span>
+                            </div>
+                            @Html.TextBoxFor(model => model.SueldoBase, Model.SueldoBase.ToString("##0"), new { @class = "form-control integer-input" })
+                        </div>
+                        @Html.ValidationMessageFor(model => model.SueldoBase, "", new { @class = "text-danger small" })
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.HorasExtras, "Horas Extras (Mensuales)", new { @class = "form-label font-weight-bold" })
+                        <div class="input-group shadow-sm">
+                            @Html.TextBoxFor(model => model.HorasExtras, Model.HorasExtras?.ToString("##0"), new { @class = "form-control integer-input" })
+                            <div class="input-group-append">
+                                <span class="input-group-text">hrs</span>
+                            </div>
+                        </div>
+                        @Html.ValidationMessageFor(model => model.HorasExtras, "", new { @class = "text-danger small" })
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Bonificaciones, "Bonificaciones", new { @class = "form-label font-weight-bold" })
+                        <div class="input-group shadow-sm">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">%</span>
+                            </div>
+                            @Html.TextBoxFor(model => model.Bonificaciones, Model.Bonificaciones?.ToString("#,##0"), new { @class = "form-control currency-input" })
+                        </div>
+                        @Html.ValidationMessageFor(model => model.Bonificaciones, "", new { @class = "text-danger small" })
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Deducciones, "Deducciones", new { @class = "form-label font-weight-bold" })
+                        <div class="input-group shadow-sm">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">%</span>
+                            </div>
+                            @Html.TextBoxFor(model => model.Deducciones, Model.Deducciones?.ToString("#,##0"), new { @class = "form-control currency-input" })
+                        </div>
+                        @Html.ValidationMessageFor(model => model.Deducciones, "", new { @class = "text-danger small" })
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Botones de Acción -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary shadow-sm mr-2">
+                <i class="fas fa-save fa-sm mr-2"></i>Guardar Cambios
+            </button>
+            <a href="@Url.Action("Index")" class="btn btn-secondary shadow-sm">
+                <i class="fas fa-times fa-sm mr-2"></i>Cancelar
+            </a>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        $(document).ready(function () {
+            // Inicializar Select2 con tema de Bootstrap 4
+            $('select.form-control').select2({
+                theme: 'bootstrap4',
+                width: '100%'
+            });
+
+            // Aplicar estilo a los inputs cuando reciben foco
+            $('.form-control').focus(function () {
+                $(this).addClass('border-primary');
+            }).blur(function () {
+                $(this).removeClass('border-primary');
+            });
+        });
+    </script>
+}

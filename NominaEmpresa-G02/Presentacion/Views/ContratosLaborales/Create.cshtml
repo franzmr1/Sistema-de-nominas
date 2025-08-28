@@ -1,0 +1,458 @@
+﻿@model NominaEmpresa.Dominio.ContratoLaborales
+
+@{
+    ViewBag.Title = "Registrar Contrato";
+}
+
+<div class="container-fluid">
+    <!-- Encabezado de página -->
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">
+            <i class="fas fa-file-contract fa-sm text-primary"></i>
+            Registrar Nuevo Contrato
+        </h1>
+    </div>
+
+    <div class="row">
+        <div class="col-xl-12 col-lg-12">
+            <div class="card shadow mb-4">
+                <!-- Card Header -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                    <h6 class="m-0 font-weight-bold text-primary">
+                        <i class="fas fa-info-circle mr-1"></i>
+                        Detalles del Contrato
+                    </h6>
+                </div>
+
+                <!-- Card Body -->
+                <div class="card-body">
+                    @using (Html.BeginForm("Create", "ContratosLaborales", FormMethod.Post, new { @class = "user" }))
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <!-- Información del Empleado -->
+                        <div class="row mb-4">
+                            <div class="col-lg-12">
+                                <div class="card border-left-primary shadow h-100">
+                                    <div class="card-header py-3">
+                                        <h6 class="m-0 font-weight-bold text-primary">
+                                            <i class="fas fa-user mr-2"></i>
+                                            Información del Empleado
+                                        </h6>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="font-weight-bold">Seleccionar Empleado</label>
+                                                    @Html.DropDownListFor(m => m.TrabajadoresCodigo,
+                                                        (IEnumerable<SelectListItem>)ViewBag.Trabajadores,
+                                                        "Seleccione un Empleado",
+                                                        new { @class = "form-control" })
+                                                    @Html.ValidationMessageFor(m => m.TrabajadoresCodigo, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Información del Contrato -->
+                        <div class="row mb-4">
+                            <div class="col-lg-6">
+                                <!-- Periodo del Contrato -->
+                                <div class="card border-left-success shadow h-100">
+                                    <div class="card-header py-3">
+                                        <h6 class="m-0 font-weight-bold text-success">
+                                            <i class="fas fa-calendar mr-2"></i>
+                                            Periodo del Contrato
+                                        </h6>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="form-group">
+                                            <label class="font-weight-bold">Fecha de Inicio</label>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text">
+                                                        <i class="fas fa-calendar-plus"></i>
+                                                    </span>
+                                                </div>
+                                                @Html.TextBoxFor(m => m.FechaInicio, "{0:yyyy-MM-dd}",
+                                                    new { @class = "form-control", type = "date" })
+                                            </div>
+                                            @Html.ValidationMessageFor(m => m.FechaInicio, "", new { @class = "text-danger" })
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="font-weight-bold">Fecha de Fin</label>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text">
+                                                        <i class="fas fa-calendar-minus"></i>
+                                                    </span>
+                                                </div>
+                                                @Html.TextBoxFor(m => m.FechaFin, "{0:yyyy-MM-dd}",
+                                                    new { @class = "form-control", type = "date" })
+                                            </div>
+                                            @Html.ValidationMessageFor(m => m.FechaFin, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <!-- Información Laboral -->
+                                <div class="card border-left-info shadow h-100">
+                                    <div class="card-header py-3">
+                                        <h6 class="m-0 font-weight-bold text-info">
+                                            <i class="fas fa-briefcase mr-2"></i>
+                                            Información Laboral
+                                        </h6>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="form-group">
+                                            <label class="font-weight-bold">Tipo de Contrato</label>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text">
+                                                        <i class="fas fa-file-signature"></i>
+                                                    </span>
+                                                </div>
+                                                @Html.DropDownListFor(m => m.TipoContratosCodigo,
+                                                    (IEnumerable<SelectListItem>)ViewBag.TiposContrato,
+                                                    "Seleccione un Tipo de Contrato",
+                                                    new { @class = "form-control" })
+                                            </div>
+                                            @Html.ValidationMessageFor(m => m.TipoContratosCodigo, "", new { @class = "text-danger" })
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="font-weight-bold">Cargo</label>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text">
+                                                        <i class="fas fa-id-badge"></i>
+                                                    </span>
+                                                </div>
+                                                @Html.DropDownListFor(m => m.CargosCodigo,
+                                                    (IEnumerable<SelectListItem>)ViewBag.Cargos,
+                                                    "Seleccione un Cargo",
+                                                    new { @class = "form-control" })
+                                            </div>
+                                            @Html.ValidationMessageFor(m => m.CargosCodigo, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Jornada Laboral -->
+                        <div class="row mb-4">
+                            <div class="col-lg-12">
+                                <div class="card border-left-warning shadow h-100">
+                                    <div class="card-header py-3">
+                                        <h6 class="m-0 font-weight-bold text-warning">
+                                            <i class="fas fa-clock mr-2"></i>
+                                            Jornada Laboral
+                                        </h6>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <!-- Días Laborables -->
+                                            <div class="col-md-6">
+                                                <div class="card bg-light mb-4">
+                                                    <div class="card-header py-2">
+                                                        <h6 class="m-0 font-weight-bold text-warning">
+                                                            <i class="fas fa-calendar-day mr-1"></i>
+                                                            Días Laborables
+                                                        </h6>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="form-group">
+                                                            <label class="font-weight-bold">Día de Inicio de Semana</label>
+                                                            @Html.DropDownListFor(m => m.DiaInicioJornada,
+                                                                (IEnumerable<SelectListItem>)ViewBag.DiasSemana,
+                                                                "Seleccione día inicio",
+                                                                new { @class = "form-control" })
+                                                            @Html.ValidationMessageFor(m => m.DiaInicioJornada, "", new { @class = "text-danger" })
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label class="font-weight-bold">Día de Fin de Semana</label>
+                                                            @Html.DropDownListFor(m => m.DiaFinJornada,
+                                                                (IEnumerable<SelectListItem>)ViewBag.DiasSemana,
+                                                                "Seleccione día fin",
+                                                                new { @class = "form-control" })
+                                                            @Html.ValidationMessageFor(m => m.DiaFinJornada, "", new { @class = "text-danger" })
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Horario Diario -->
+                                            <div class="col-md-6">
+                                                <div class="card bg-light">
+                                                    <div class="card-header py-2">
+                                                        <h6 class="m-0 font-weight-bold text-warning">
+                                                            <i class="fas fa-hourglass-half mr-1"></i>
+                                                            Horario Diario
+                                                        </h6>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="form-group">
+                                                            <label class="font-weight-bold">Hora de Entrada</label>
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                    <span class="input-group-text">
+                                                                        <i class="fas fa-sun"></i>
+                                                                    </span>
+                                                                </div>
+                                                                @Html.TextBoxFor(m => m.HoraInicioJornada,
+                                                                    new { @class = "form-control", type = "time" })
+                                                            </div>
+                                                            @Html.ValidationMessageFor(m => m.HoraInicioJornada, "", new { @class = "text-danger" })
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label class="font-weight-bold">Hora de Salida</label>
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                    <span class="input-group-text">
+                                                                        <i class="fas fa-moon"></i>
+                                                                    </span>
+                                                                </div>
+                                                                @Html.TextBoxFor(m => m.HoraFinJornada,
+                                                                    new { @class = "form-control", type = "time" })
+                                                            </div>
+                                                            @Html.ValidationMessageFor(m => m.HoraFinJornada, "", new { @class = "text-danger" })
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Modalidad y Sueldo -->
+                        <div class="row mb-4">
+                            <div class="col-lg-6">
+                                <!-- Modalidad de Trabajo -->
+                                <div class="card border-left-danger shadow h-100">
+                                    <div class="card-header py-3">
+                                        <h6 class="m-0 font-weight-bold text-danger">
+                                            <i class="fas fa-laptop-house mr-2"></i>
+                                            Modalidad de Trabajo
+                                        </h6>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="form-group">
+                                            <label class="font-weight-bold">Modalidad</label>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text">
+                                                        <i class="fas fa-building"></i>
+                                                    </span>
+                                                </div>
+                                                @Html.DropDownListFor(m => m.ModalidadCodigo,
+                                                    (IEnumerable<SelectListItem>)ViewBag.Modalidades,
+                                                    "Seleccione una Modalidad",
+                                                    new { @class = "form-control" })
+                                            </div>
+                                            @Html.ValidationMessageFor(m => m.ModalidadCodigo, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <!-- Sueldo Base -->
+                                <div class="card border-left-success shadow h-100">
+                                    <div class="card-header py-3">
+                                        <h6 class="m-0 font-weight-bold text-success">
+                                            <i class="fas fa-money-bill-wave mr-2"></i>
+                                            Sueldo Base
+                                        </h6>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="form-group">
+                                            <label class="font-weight-bold">Sueldo</label>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text">S/</span>
+                                                </div>
+                                                @Html.TextBoxFor(m => m.SueldoBase,
+                                                    new { @class = "form-control", type = "number", step = "0.01", min = "0" })
+                                            </div>
+                                            @Html.ValidationMessageFor(m => m.SueldoBase, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Compensaciones y Beneficios -->
+                        <div class="row mb-4">
+                            <div class="col-lg-12">
+                                <div class="card border-left-primary shadow h-100">
+                                    <div class="card-header py-3">
+                                        <h6 class="m-0 font-weight-bold text-primary">
+                                            <i class="fas fa-hand-holding-usd mr-2"></i>
+                                            Compensaciones y Beneficios
+                                        </h6>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <!-- Deducciones -->
+                                            <div class="col-md-4">
+                                                <div class="card bg-light mb-4">
+                                                    <div class="card-header py-2">
+                                                        <h6 class="m-0 font-weight-bold text-primary">
+                                                            <i class="fas fa-minus-circle mr-1"></i>
+                                                            Deducciones
+                                                        </h6>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="form-group">
+                                                            <label class="font-weight-bold">Porcentaje de Deducciones</label>
+                                                            <div class="input-group">
+                                                                @Html.TextBoxFor(m => m.Deducciones,
+                                                                    new
+                                                                         {
+                                                                        @class = "form-control",
+
+                                                                        min = "0",
+                                                                        max = "20",
+
+                                                                    })
+                                                                <div class="input-group-append">
+                                                                    <span class="input-group-text">%</span>
+                                                                </div>
+                                                            </div>
+                                                            @Html.ValidationMessageFor(m => m.Deducciones, "", new { @class = "text-danger" })
+                                                            <small class="form-text text-muted">Ingrese el valor en porcentaje</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Bonificaciones -->
+                                            <div class="col-md-4">
+                                                <div class="card bg-light mb-4">
+                                                    <div class="card-header py-2">
+                                                        <h6 class="m-0 font-weight-bold text-primary">
+                                                            <i class="fas fa-plus-circle mr-1"></i>
+                                                            Bonificaciones
+                                                        </h6>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="form-group">
+                                                            <label class="font-weight-bold">Porcentaje de Bonificaciones</label>
+                                                            <div class="input-group">
+                                                                @Html.TextBoxFor(m => m.Bonificaciones,
+                                                                    new
+                                                                         {
+                                                                        @class = "form-control",
+                                                                        
+                                                                        min = "0",
+                                                                        max = "20",
+                                                                        
+                                                                    })
+                                                                <div class="input-group-append">
+                                                                    <span class="input-group-text">%</span>
+                                                                </div>
+                                                            </div>
+                                                            @Html.ValidationMessageFor(m => m.Bonificaciones, "", new { @class = "text-danger" })
+                                                            <small class="form-text text-muted">Ingrese el valor en porcentaje</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Horas Extras -->
+                                            <div class="col-md-4">
+                                                <div class="card bg-light">
+                                                    <div class="card-header py-2">
+                                                        <h6 class="m-0 font-weight-bold text-primary">
+                                                            <i class="fas fa-clock mr-1"></i>
+                                                            Horas Extras
+                                                        </h6>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="form-group">
+                                                            <label class="font-weight-bold">Cantidad de Horas Extras</label>
+                                                            <div class="input-group">
+                                                                @Html.TextBoxFor(m => m.HorasExtras,
+                                                                    new
+                                                                         {
+                                                                        @class = "form-control",
+
+                                                                        min = "0",
+                                                                        placeholder = "Ingrese horas extras"
+                                                                    })
+                                                                <div class="input-group-append">
+                                                                    <span class="input-group-text">hrs</span>
+                                                                </div>
+                                                            </div>
+                                                            @Html.ValidationMessageFor(m => m.HorasExtras, "", new { @class = "text-danger" })
+                                                            <small class="form-text text-muted">Ingrese las horas extras trabajadas</small>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Botones de Acción -->
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <button type="submit" class="btn btn-primary btn-icon-split btn-lg">
+                                    <span class="icon text-white-50">
+                                        <i class="fas fa-save"></i>
+                                    </span>
+                                    <span class="text">Guardar Contrato</span>
+                                </button>
+                                <a href="@Url.Action("Index")" class="btn btn-secondary btn-icon-split btn-lg ml-2">
+                                    <span class="icon text-white-50">
+                                        <i class="fas fa-arrow-left"></i>
+                                    </span>
+                                    <span class="text">Volver a la Lista</span>
+                                </a>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        $(document).ready(function () {
+            // Inicializar Select2 con tema de Bootstrap 4
+            $('.form-control').select2({
+                theme: 'bootstrap4',
+                width: '100%'
+            });
+
+            // Habilitar la validación no obstrusiva
+            $.validator.unobtrusive.parse("form");
+
+            // Tooltip para campos con información adicional
+            $('[data-toggle="tooltip"]').tooltip();
+
+            // Formatear campos numéricos
+            $('.money-input').on('input', function () {
+                let value = $(this).val();
+                value = value.replace(/[^0-9.]/g, '');
+                if (value.split('.').length > 2)
+                    value = value.replace(/\.+$/, '');
+                $(this).val(value);
+            });
+        });
+    </script>
+}

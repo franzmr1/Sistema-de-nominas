@@ -1,0 +1,752 @@
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\Presentacion.dll.config
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\Presentacion.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\Presentacion.pdb
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\csc.exe
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\csc.exe.config
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\csc.rsp
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\csi.exe
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\csi.exe.config
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\csi.rsp
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\System.AppContext.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Console.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.Compression.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Net.Http.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\System.ValueTuple.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\vbc.exe
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\vbc.exe.config
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\vbc.rsp
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\Antlr3.Runtime.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\Newtonsoft.Json.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Aplicacion.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Dominio.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\System.Web.Helpers.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\System.Web.Mvc.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\System.Web.Optimization.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\System.Web.Razor.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\WebGrease.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Servicios.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Persistencia.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Aplicacion.pdb
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Dominio.pdb
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\System.Web.Helpers.xml
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\System.Web.Mvc.xml
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\System.Web.Optimization.xml
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\System.Web.Razor.xml
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.xml
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\Newtonsoft.Json.xml
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\Antlr3.Runtime.pdb
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Servicios.pdb
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Persistencia.pdb
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Razor.resources.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\obj\Debug\NominaEmpresa.Presentacion.csproj.AssemblyReference.cache
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\obj\Debug\NominaEmpresa.Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\obj\Debug\NominaEm.876D4E20.Up2Date
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\obj\Debug\Presentacion.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\NominaEmpresa-G01\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\Presentacion.dll.config
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\Presentacion.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\Presentacion.pdb
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\csc.exe
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\csc.exe.config
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\csc.rsp
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\csi.exe
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\csi.exe.config
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\csi.rsp
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\System.AppContext.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Console.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.Compression.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Net.Http.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\System.ValueTuple.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\vbc.exe
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\vbc.exe.config
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\vbc.rsp
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\Antlr3.Runtime.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\Newtonsoft.Json.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Aplicacion.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Dominio.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\System.Web.Helpers.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\System.Web.Mvc.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\System.Web.Optimization.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\System.Web.Razor.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\WebGrease.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Servicios.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Persistencia.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Aplicacion.pdb
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Dominio.pdb
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\System.Web.Helpers.xml
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\System.Web.Mvc.xml
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\System.Web.Optimization.xml
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\System.Web.Razor.xml
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.xml
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\Newtonsoft.Json.xml
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\Antlr3.Runtime.pdb
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Servicios.pdb
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Persistencia.pdb
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Razor.resources.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\obj\Debug\NominaEmpresa.Presentacion.csproj.AssemblyReference.cache
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\obj\Debug\NominaEmpresa.Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\obj\Debug\NominaEm.876D4E20.Up2Date
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\obj\Debug\Presentacion.dll
+C:\Users\Sergio\Downloads\ProyectoV2-20241103T031000Z-001\ProyectoV2\Nueva carpeta\NominaEmpresa-G01\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\Presentacion.dll.config
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\Presentacion.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\Presentacion.pdb
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\csc.exe
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\csc.exe.config
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\csc.rsp
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\csi.exe
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\csi.exe.config
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\csi.rsp
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.AppContext.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Console.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.Compression.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Net.Http.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.ValueTuple.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\vbc.exe
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\vbc.exe.config
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\vbc.rsp
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\Antlr3.Runtime.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\Newtonsoft.Json.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Aplicacion.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Dominio.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.Helpers.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.Mvc.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.Optimization.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.Razor.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\WebGrease.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Servicios.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Persistencia.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Aplicacion.pdb
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Dominio.pdb
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.Helpers.xml
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.Mvc.xml
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.Optimization.xml
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.Razor.xml
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.xml
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\Newtonsoft.Json.xml
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\Antlr3.Runtime.pdb
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Servicios.pdb
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Persistencia.pdb
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Razor.resources.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\obj\Debug\NominaEmpresa.Presentacion.csproj.AssemblyReference.cache
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\obj\Debug\NominaEmpresa.Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\obj\Debug\NominaEm.876D4E20.Up2Date
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\obj\Debug\Presentacion.dll
+C:\Users\Sergio\Desktop\NAKI\NominaEmpresa-G01\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\Presentacion.dll.config
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\Presentacion.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\Presentacion.pdb
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\csc.exe
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\csc.exe.config
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\csc.rsp
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\csi.exe
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\csi.exe.config
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\csi.rsp
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.AppContext.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Console.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.Compression.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Net.Http.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Net.Sockets.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.ValueTuple.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.XPath.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\vbc.exe
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\vbc.exe.config
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\vbc.rsp
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\VBCSCompiler.exe
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\Antlr3.Runtime.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\Newtonsoft.Json.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Aplicacion.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Dominio.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.Helpers.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.Mvc.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.Optimization.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.Razor.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Deployment.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Razor.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\WebGrease.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Servicios.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Persistencia.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Aplicacion.pdb
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Dominio.pdb
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.Helpers.xml
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.Mvc.xml
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.Optimization.xml
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.Razor.xml
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.xml
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Deployment.xml
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Razor.xml
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\Newtonsoft.Json.xml
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\Antlr3.Runtime.pdb
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Servicios.pdb
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Persistencia.pdb
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Helpers.resources.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Mvc.resources.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Optimization.resources.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Razor.resources.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\es\System.Web.WebPages.resources.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\obj\Debug\NominaEmpresa.Presentacion.csproj.AssemblyReference.cache
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\obj\Debug\NominaEmpresa.Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\obj\Debug\NominaEmpresa.Presentacion.csproj.CopyComplete
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\obj\Debug\Presentacion.dll
+C:\Users\UCV\Downloads\NAKI\NominaEmpresa-G01\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\Presentacion.dll.config
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\Presentacion.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\Presentacion.pdb
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\csc.exe
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\csc.exe.config
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\csc.rsp
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\csi.exe
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\csi.exe.config
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\csi.rsp
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.AppContext.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Console.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.Compression.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Net.Http.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.ValueTuple.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\vbc.exe
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\vbc.exe.config
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\vbc.rsp
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\Antlr3.Runtime.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\Newtonsoft.Json.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Aplicacion.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Dominio.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.Helpers.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.Mvc.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.Optimization.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.Razor.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\WebGrease.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Servicios.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Persistencia.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Aplicacion.pdb
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Dominio.pdb
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.Helpers.xml
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.Mvc.xml
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.Optimization.xml
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.Razor.xml
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.xml
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\Newtonsoft.Json.xml
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\Antlr3.Runtime.pdb
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Servicios.pdb
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Persistencia.pdb
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Razor.resources.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\obj\Debug\NominaEmpresa.Presentacion.csproj.AssemblyReference.cache
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\obj\Debug\NominaEmpresa.Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\obj\Debug\NominaEm.876D4E20.Up2Date
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\obj\Debug\Presentacion.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\Presentacion.dll.config
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\Presentacion.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\Presentacion.pdb
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\csc.exe
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\csc.exe.config
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\csc.rsp
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\csi.exe
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\csi.exe.config
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\csi.rsp
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\System.AppContext.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Console.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.Compression.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Net.Http.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\System.ValueTuple.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\vbc.exe
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\vbc.exe.config
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\vbc.rsp
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\Antlr3.Runtime.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\Newtonsoft.Json.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Aplicacion.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Dominio.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\System.Web.Helpers.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\System.Web.Mvc.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\System.Web.Optimization.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\System.Web.Razor.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\WebGrease.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Servicios.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Persistencia.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Aplicacion.pdb
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Dominio.pdb
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\System.Web.Helpers.xml
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\System.Web.Mvc.xml
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\System.Web.Optimization.xml
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\System.Web.Razor.xml
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.xml
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\Newtonsoft.Json.xml
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\Antlr3.Runtime.pdb
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Servicios.pdb
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Persistencia.pdb
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Razor.resources.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\obj\Debug\NominaEmpresa.Presentacion.csproj.AssemblyReference.cache
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\obj\Debug\NominaEmpresa.Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\obj\Debug\NominaEmpresa.Presentacion.csproj.CopyComplete
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\obj\Debug\Presentacion.dll
+C:\Users\Administrador\Downloads\PROYECTO V2_1-20241120T223211Z-001\PROYECTO V2_1\NominaEmpresa-G01\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\Presentacion.dll.config
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\Presentacion.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\Presentacion.pdb
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\csc.exe
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\csc.exe.config
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\csc.rsp
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\csi.exe
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\csi.exe.config
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\csi.rsp
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.AppContext.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Console.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.Compression.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Net.Http.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Net.Sockets.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.ValueTuple.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.XPath.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\vbc.exe
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\vbc.exe.config
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\vbc.rsp
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\VBCSCompiler.exe
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\Antlr3.Runtime.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\Newtonsoft.Json.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Aplicacion.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Dominio.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.Helpers.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.Mvc.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.Optimization.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.Razor.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Deployment.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Razor.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\WebGrease.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Servicios.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Persistencia.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Aplicacion.pdb
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Dominio.pdb
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.Helpers.xml
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.Mvc.xml
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.Optimization.xml
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.Razor.xml
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.xml
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Deployment.xml
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Razor.xml
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\Newtonsoft.Json.xml
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\Antlr3.Runtime.pdb
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Servicios.pdb
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Persistencia.pdb
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Helpers.resources.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Mvc.resources.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Optimization.resources.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Razor.resources.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\es\System.Web.WebPages.resources.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\obj\Debug\NominaEmpresa.Presentacion.csproj.AssemblyReference.cache
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\obj\Debug\NominaEmpresa.Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\obj\Debug\NominaEmpresa.Presentacion.csproj.CopyComplete
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\obj\Debug\Presentacion.dll
+C:\Users\UCV\Downloads\NominaEmpresa-G01\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\Presentacion.dll.config
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\Presentacion.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\Presentacion.pdb
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\csc.exe
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\csc.exe.config
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\csc.rsp
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\csi.exe
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\csi.exe.config
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\csi.rsp
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\System.AppContext.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Console.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.Compression.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Net.Http.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\System.ValueTuple.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\vbc.exe
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\vbc.exe.config
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\vbc.rsp
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\Antlr3.Runtime.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\Newtonsoft.Json.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Aplicacion.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Dominio.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\System.Web.Helpers.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\System.Web.Mvc.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\System.Web.Optimization.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\System.Web.Razor.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\WebGrease.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Servicios.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Persistencia.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Aplicacion.pdb
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Dominio.pdb
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\System.Web.Helpers.xml
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\System.Web.Mvc.xml
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\System.Web.Optimization.xml
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\System.Web.Razor.xml
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.xml
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\Newtonsoft.Json.xml
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\Antlr3.Runtime.pdb
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Servicios.pdb
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\NominaEmpresa.Persistencia.pdb
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\es\System.Web.Razor.resources.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\obj\Debug\NominaEmpresa.Presentacion.csproj.AssemblyReference.cache
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\obj\Debug\NominaEmpresa.Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\obj\Debug\NominaEm.876D4E20.Up2Date
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\obj\Debug\Presentacion.dll
+C:\Users\Sergio\Downloads\NominaEmpresa-G01\NominaEmpresa-G01\Presentacion\obj\Debug\Presentacion.pdb

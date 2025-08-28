@@ -1,0 +1,262 @@
+﻿@model IEnumerable<NominaEmpresa.Dominio.Pagos>
+@{
+    ViewBag.Title = "Gestión de Pagos";
+    var periodos = Model.Select(p => p.PeriodoNombre)
+                       .Distinct()
+                       .OrderByDescending(p => p)
+                       .ToList();
+}
+
+<!-- Page Heading -->
+<div class="d-sm-flex align-items-center justify-content-between mb-3">
+    <h1 class="h3 mb-0 text-gray-800">
+        <i class="fas fa-money-bill-wave fa-sm mr-2 text-gray-600"></i>
+        Gestión de Pagos
+    </h1>
+    @using (Html.BeginForm("GenerarPago", "Pagos", FormMethod.Post, new { @class = "m-0" }))
+    {
+        @Html.AntiForgeryToken()
+        <button type="submit" class="btn btn-primary btn-sm shadow-sm">
+            <i class="fas fa-money-bill-wave fa-sm text-white-50 mr-1"></i>
+            Procesar Pagos
+        </button>
+    }
+</div>
+
+<!-- Tarjetas de Resumen -->
+<div class="row mb-4">
+    <!-- Total de Pagos -->
+    <div class="col-xl-3 col-md-6 mb-2">
+        <div class="card border-left-primary shadow h-100 py-2 hover-shadow">
+            <div class="card-body py-2">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Total Registros</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800" id="totalPagos">
+                            @Model.Count()
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Total Pagado -->
+    <div class="col-xl-3 col-md-6 mb-2">
+        <div class="card border-left-success shadow h-100 py-2 hover-shadow">
+            <div class="card-body py-2">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Total Pagado</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800" id="totalMonto">
+                            @Model.Sum(x => x.PagosSalarioNeto).ToString("C2", new System.Globalization.CultureInfo("es-PE"))
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Alertas -->
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show shadow-sm py-2" role="alert">
+        <i class="fas fa-exclamation-triangle mr-2"></i>
+        @TempData["Error"]
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show shadow-sm py-2" role="alert">
+        <i class="fas fa-check-circle mr-2"></i>
+        @TempData["Mensaje"]
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+
+<!-- Filtro de Período -->
+<div class="d-flex justify-content-end mb-3">
+    <div class="input-group input-group-sm" style="width: 200px;">
+        <div class="input-group-prepend">
+            <label class="input-group-text" for="periodFilter">
+                <i class="fas fa-calendar-alt"></i>
+            </label>
+        </div>
+        <select id="periodFilter" class="form-control form-control-sm">
+            <option value="">Todos los períodos</option>
+            @foreach (var periodo in periodos)
+            {
+                <option value="@periodo">@periodo</option>
+            }
+        </select>
+    </div>
+</div>
+
+<!-- Tabla de Pagos -->
+<div class="card shadow mb-4">
+    <div class="card-header py-2">
+        <h6 class="m-0 font-weight-bold text-primary">
+            <i class="fas fa-list fa-sm fa-fw mr-2"></i>
+            Lista de Pagos Realizados
+        </h6>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Trabajador</th>
+                        <th>Período</th>
+                        <th>Fecha</th>
+                        <th>Salario Neto</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr data-monto="@item.PagosSalarioNeto">
+                            <td>@item.PagosCodigo</td>
+                            <td>@item.NombreTrabajador</td>
+                            <td>@item.PeriodoNombre</td>
+                            <td>@item.PagosFechaPago.ToString("dd/MM/yyyy")</td>
+                            <td>@item.PagosSalarioNeto.ToString("C2", new System.Globalization.CultureInfo("es-PE"))</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Inicialización de DataTable
+            var table = $('#dataTable').DataTable({
+                "language": {
+                    "url": "//cdn.datatables.net/plug-ins/1.10.24/i18n/Spanish.json",
+                    "lengthMenu": "_MENU_",
+                    "searchPlaceholder": "Buscar..."
+                },
+                "ordering": true,
+                "order": [[3, "desc"]],
+                "pageLength": 10,
+                "lengthMenu": [[10, 25, 50], [10, 25, 50]],
+                "dom": "<'row'<'col-sm-12 col-md-6'l>>" +
+                    "<'row'<'col-sm-12'tr>>" +
+                    "<'row'<'col-sm-12 col-md-5'i><'col-sm-12 col-md-7'p>>",
+                "drawCallback": function (settings) {
+                    actualizarTotales();
+                },
+                "initComplete": function (settings, json) {
+                    $('.dataTables_length select').addClass('custom-select custom-select-sm form-control form-control-sm mx-2').css('width', '60px');
+                    $('.dataTables_length label').contents().filter(function () {
+                        return this.nodeType === 3;
+                    }).remove();
+                }
+            });
+
+            // Filtro por período
+            $('#periodFilter').on('change', function () {
+                table.column(2).search($(this).val()).draw();
+            });
+
+            // Función para actualizar los totales
+            function actualizarTotales() {
+                var totalMonto = 0;
+
+                // Obtener filas visibles después del filtrado
+                table.rows({ search: 'applied' }).every(function (rowIdx, tableLoop, rowLoop) {
+                    var $row = $(this.node());
+                    var monto = parseFloat($row.data('monto'));
+                    if (!isNaN(monto)) {
+                        totalMonto += monto;
+                    }
+                });
+
+                // Actualizar contadores
+                $('#totalPagos').text(table.rows({ search: 'applied' }).count());
+
+                // Formatear y mostrar el total
+                $('#totalMonto').text(new Intl.NumberFormat('es-PE', {
+                    style: 'currency',
+                    currency: 'PEN',
+                    minimumFractionDigits: 2,
+                    maximumFractionDigits: 2
+                }).format(totalMonto));
+            }
+
+            // Event listeners adicionales para actualización de totales
+            table.on('search.dt', actualizarTotales);
+            table.on('page.dt', actualizarTotales);
+            table.on('order.dt', actualizarTotales);
+            table.on('length.dt', actualizarTotales);
+        });
+    </script>
+
+    <style>
+        .dataTables_wrapper {
+            font-size: 0.875rem;
+        }
+
+        .dataTables_length {
+            margin-bottom: 0.5rem !important;
+        }
+
+        .table thead th {
+            background-color: #f8f9fc;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+            padding: 0.75rem;
+            vertical-align: middle;
+        }
+
+        .table td {
+            padding: 0.5rem 0.75rem;
+            vertical-align: middle;
+        }
+
+        .card-header {
+            background-color: white;
+        }
+
+        .hover-shadow {
+            transition: all 0.2s ease-in-out;
+        }
+
+            .hover-shadow:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+            }
+
+        .alert {
+            padding: 0.5rem 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .dataTables_info {
+            padding-top: 0.5rem !important;
+        }
+
+        .page-link {
+            padding: 0.25rem 0.5rem;
+            font-size: 0.875rem;
+        }
+    </style>
+}
